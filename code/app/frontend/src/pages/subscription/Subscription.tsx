@@ -1,7 +1,7 @@
-
+import Page3 from './Page3';
 function Subscription() {
   return (
-    <div>HERE SUBSCRIPTION PART</div>
+    <div><Page3></Page3></div>
   );
 }
 
