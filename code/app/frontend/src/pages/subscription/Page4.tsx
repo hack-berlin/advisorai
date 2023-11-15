@@ -528,7 +528,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               textAlign: "center",
                               border: "none",
                               borderRadius: "40px",
-                              backgroundColor: "rgb(255, 209, 0)",
+                              backgroundColor: "rgb(194, 20, 73)",
                               color: "rgb(0, 0, 0)",
                               textTransform: "uppercase",
                               fontWeight: 500,

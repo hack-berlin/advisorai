@@ -100,7 +100,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       textAlign: "center",
                       marginBottom: "28px",
                       letterSpacing: "normal",
-                      color: "rgb(27, 67, 172)",
+                      color: "black",
                     }}
                   >
                     Your contact details
@@ -199,7 +199,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   margin: "0px",
                                   padding: "0px",
                                   letterSpacing: "normal",
-                                  color: "rgb(27, 67, 172)",
+                                  color: "black",
                                   fontStretch: "normal",
                                   fontStyle: "normal",
                                   marginTop: "0px",
@@ -391,7 +391,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
                                           fontWeight: "inherit",
-                                          color: "rgb(255, 209, 0)",
+                                          color: "rgb(194, 20, 73)",
                                         }}
                                       >
                                         *
@@ -670,7 +670,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
                                           fontWeight: "inherit",
-                                          color: "rgb(255, 209, 0)",
+                                          color: "rgb(194, 20, 73)",
                                         }}
                                       >
                                         *
@@ -949,7 +949,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
                                           fontWeight: "inherit",
-                                          color: "rgb(255, 209, 0)",
+                                          color: "rgb(194, 20, 73)",
                                         }}
                                       >
                                         *
@@ -1228,7 +1228,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
                                           fontWeight: "inherit",
-                                          color: "rgb(255, 209, 0)",
+                                          color: "rgb(194, 20, 73)",
                                         }}
                                       >
                                         *
@@ -1558,7 +1558,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
                                               fontWeight: "inherit",
-                                              color: "rgb(255, 209, 0)",
+                                              color: "rgb(194, 20, 73)",
                                             }}
                                           >
                                             *
@@ -1962,7 +1962,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
                                               fontWeight: "inherit",
-                                              color: "rgb(255, 209, 0)",
+                                              color: "rgb(194, 20, 73)",
                                             }}
                                           >
                                             *

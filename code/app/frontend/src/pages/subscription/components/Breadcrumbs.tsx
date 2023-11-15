@@ -4,9 +4,9 @@ const BreadcrumbItem = ({ step, item, currentStep }: { step: number, item: strin
   console.log({ step, item, currentStep })
   const isInProgress = (step + 1) === currentStep;
 
-  const color = isInProgress ? "rgb(27, 67, 172) " : "rgb(146, 146, 146)";
-  const backgroundColor = isInProgress ? "rgb(27, 67, 172)" : "rgb(229, 231, 235)";
-  const textColor = isInProgress ? "rgb(255, 255, 255)" : "rgb(27, 67, 172)";
+  const color = isInProgress ? "rgb(194, 20, 73) " : "rgb(146, 146, 146)";
+  const backgroundColor = isInProgress ? "rgb(194, 20, 73)" : "rgb(229, 231, 235)";
+  const textColor = isInProgress ? "rgb(255, 255, 255)" : "rgb(194, 20, 73)";
   // Add your logic for displaying breadcrumb item here
   // Use the isInProgress variable to determine if the step is in progress or not
   return <li
@@ -51,7 +51,7 @@ const BreadcrumbItem = ({ step, item, currentStep }: { step: number, item: strin
           fontStretch: "normal",
           fontStyle: "normal",
           lineHeight: 1.13,
-          color: "rgb(27, 67, 172)",
+          color: "rgb(194, 20, 73)",
           fontSize: "16px",
           position: "relative",
         }}

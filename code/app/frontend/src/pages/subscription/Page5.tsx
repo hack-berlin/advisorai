@@ -96,7 +96,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       textAlign: "center",
                       marginBottom: "28px",
                       letterSpacing: "normal",
-                      color: "rgb(27, 67, 172)",
+                      color: "rgb(194, 20, 73)",
                     }}
                   >
                     Your product choice
@@ -174,7 +174,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             margin: "0px",
                             padding: "0px",
                             letterSpacing: "normal",
-                            color: "rgb(27, 67, 172)",
+                            color: "rgb(194, 20, 73)",
                             fontStretch: "normal",
                             fontStyle: "normal",
                             marginTop: "0px",
@@ -223,7 +223,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             >
                               {" "}
                             </div>
-                            <p> HERE IMAGE OF THUMB </p>
+                            <div className="thumb-container">
+      <div className="thumb"></div>
+    </div>
                             <p>Welcom to the Swisslife Family !</p>
                           </div>{" "}
                         </section>{" "}
@@ -243,6 +245,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         display: "flex",
                       }}
                     >
+                      
                       <button
                         className="pld-m-2 btn_1P7x4 block_1Jg7s outlined_3xSXE shift_right_2U_ar yellow_sJHfv"
                         aria-label="Précédent"
