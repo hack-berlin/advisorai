@@ -8,7 +8,8 @@ import rehypeRaw from "rehype-raw";
 import { v4 as uuidv4 } from "uuid";
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/Azure.svg";
+import Azure from "../../assets/SL-Logo-svg.svg";
+import ChatBot from "../../assets/chatBot-SL-avatar.png";
 
 import {
     ChatMessage,
@@ -137,8 +138,13 @@ const Chat = () => {
                                 className={styles.chatIcon}
                                 aria-hidden="true"
                             />
-                            <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                            <img
+                                src={ChatBot}
+                                className={styles.chatIcon}
+                                aria-hidden="true"
+                            />
+                            <h1 className={styles.chatEmptyStateTitle}>How may I help you</h1>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Feel free to ask questions</h2>
                         </Stack>
                     ) : (
                         <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}}>
