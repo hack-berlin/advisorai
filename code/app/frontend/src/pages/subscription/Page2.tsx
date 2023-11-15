@@ -3868,7 +3868,6 @@ export default function Component() {
                                           <button
                                             className="button is-radio-checkbox is-size-6 w-full"
                                             type="button"
-                                            label="Quel est votre objectif principal pour ce placement ?"
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -3909,7 +3908,6 @@ export default function Component() {
                                             {" "}
                                             <label
                                               className="b-radio radio is-hidden"
-                                              label="Quel est votre objectif principal pour ce placement ?"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -4114,8 +4112,6 @@ export default function Component() {
                                 }}
                               >
                                 <div
-                                  value="570"
-                                  label="Pour quel type de gestion désirez-vous opter ?"
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
@@ -4128,7 +4124,6 @@ export default function Component() {
                                   <div
                                     id="SouhaitAllocationFinanciere"
                                     className="field"
-                                    value="570"
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
@@ -4252,7 +4247,6 @@ export default function Component() {
                                           <button
                                             className="button is-radio-checkbox is-size-6 w-full"
                                             type="button"
-                                            label="Pour quel type de gestion désirez-vous opter ?"
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -4293,7 +4287,6 @@ export default function Component() {
                                             {" "}
                                             <label
                                               className="b-radio radio is-hidden"
-                                              label="Pour quel type de gestion désirez-vous opter ?"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -4549,7 +4542,6 @@ export default function Component() {
                                           <button
                                             className="button is-radio-checkbox is-size-6 is-active has-text-weight-medium !pld-shadow-md w-full"
                                             type="button"
-                                            label="Pour quel type de gestion désirez-vous opter ?"
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -4593,7 +4585,6 @@ export default function Component() {
                                             {" "}
                                             <label
                                               className="b-radio radio is-hidden"
-                                              label="Pour quel type de gestion désirez-vous opter ?"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -5096,7 +5087,6 @@ export default function Component() {
                             </h2>{" "}
                             <a
                               className="card-header-action ml-auto"
-                              icon="menu-down"
                               role="button"
                               style={{
                                 borderWidth: "0px",
@@ -5381,9 +5371,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                               >
                                 <div
                                   id="CeQueJeVeux"
-                                  name="CeQueJeVeux"
-                                  value="588"
-                                  label="Cela correspond-il à votre souhait ?"
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
@@ -5395,8 +5382,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                   {" "}
                                   <div
                                     className="field"
-                                    name="CeQueJeVeux"
-                                    value="588"
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
@@ -5520,7 +5505,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             className="button is-radio-checkbox is-size-6 is-active has-text-weight-medium !pld-shadow-md w-full"
                                             name="CeQueJeVeux"
                                             type="button"
-                                            label="Cela correspond-il à votre souhait ?"
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -5564,7 +5548,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             {" "}
                                             <label
                                               className="b-radio radio is-hidden"
-                                              label="Cela correspond-il à votre souhait ?"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -5696,7 +5679,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             className="button is-radio-checkbox is-size-6 w-full"
                                             name="CeQueJeVeux"
                                             type="button"
-                                            label="Cela correspond-il à votre souhait ?"
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -5737,7 +5719,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             {" "}
                                             <label
                                               className="b-radio radio is-hidden"
-                                              label="Cela correspond-il à votre souhait ?"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -5871,7 +5852,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             className="button is-radio-checkbox is-size-6 w-full"
                                             name="CeQueJeVeux"
                                             type="button"
-                                            label="Cela correspond-il à votre souhait ?"
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -5912,7 +5892,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             {" "}
                                             <label
                                               className="b-radio radio is-hidden"
-                                              label="Cela correspond-il à votre souhait ?"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -6109,8 +6088,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                 }}
                               >
                                 <div
-                                  value="592"
-                                  label="Quelle serait votre préférence ?"
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
@@ -6420,7 +6397,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                         </div>{" "}
                         <div
                           className="column is-12"
-                          label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                           style={{
                             borderWidth: "0px",
                             borderStyle: "solid",
@@ -6449,9 +6425,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                           >
                             <div
                               id="ReactionPerte"
-                              name="ReactionPerte"
-                              value="596"
-                              label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
@@ -6463,8 +6436,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                               {" "}
                               <div
                                 className="field"
-                                name="ReactionPerte"
-                                value="596"
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
@@ -6586,7 +6557,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                         className="button is-radio-checkbox is-size-6 w-full"
                                         name="ReactionPerte"
                                         type="button"
-                                        label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                                         style={{
                                           borderStyle: "solid",
                                           boxSizing: "inherit",
@@ -6625,7 +6595,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                         {" "}
                                         <label
                                           className="b-radio radio is-hidden"
-                                          label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
@@ -6754,7 +6723,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                         className="button is-radio-checkbox is-size-6 is-active has-text-weight-medium !pld-shadow-md w-full"
                                         name="ReactionPerte"
                                         type="button"
-                                        label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                                         style={{
                                           borderStyle: "solid",
                                           boxSizing: "inherit",
@@ -6796,7 +6764,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                         {" "}
                                         <label
                                           className="b-radio radio is-hidden"
-                                          label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
@@ -6924,7 +6891,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                         className="button is-radio-checkbox is-size-6 w-full"
                                         name="ReactionPerte"
                                         type="button"
-                                        label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                                         style={{
                                           borderStyle: "solid",
                                           boxSizing: "inherit",
@@ -6963,7 +6929,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                         {" "}
                                         <label
                                           className="b-radio radio is-hidden"
-                                          label="La valeur de votre investissement baisse de plus de 100 €, comment réagissez-vous ?"
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
@@ -7279,8 +7244,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                             </h2>{" "}
                             <a
                               className="card-header-action ml-auto"
-                              icon="menu-down"
-                              role="button"
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
@@ -7362,7 +7325,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                     >
                       {" "}
                       <span
-                        name="Investissement"
                         style={{
                           borderWidth: "0px",
                           borderStyle: "solid",
@@ -7664,7 +7626,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                             <button
                                               className="button is-h-full is-static is-rounded"
                                               type="button"
-                                              tabIndex="-1"
                                               style={{
                                                 borderStyle: "solid",
                                                 boxSizing: "inherit",
@@ -8597,7 +8558,6 @@ une année, soit 100 € pour votre projet de 1 000 €`}</span>
                                                 <button
                                                   className="button is-h-full is-static is-rounded"
                                                   type="button"
-                                                  tabIndex="-1"
                                                   style={{
                                                     borderStyle: "solid",
                                                     boxSizing: "inherit",
@@ -8994,1097 +8954,11 @@ Compte, dans les conditions prévues à l'Article L. 131-1 du Code des Assurance
                       </svg>
                     </button>{" "}
                   </div>{" "}
-                  <div
-                    className="pld-pt-10"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      paddingTop: "2.5rem",
-                    }}
-                  >
-                    <div
-                      className="has-background-grey-lighter columns pld-p-2 md:pld-p-8"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        padding: "2rem",
-                        marginLeft: "-15px",
-                        marginRight: "-15px",
-                        display: "flex",
-                        marginTop: "0px",
-                        marginBottom: "0px",
-                        backgroundColor: "rgb(246, 246, 246)",
-                      }}
-                    >
-                      <div
-                        className="is-flex is-align-content-flex-start column is-6 pld-mb-4 sm:pld-mb-0 md:pld-pr-6"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          marginBottom: "0px",
-                          padding: "15px",
-                          paddingRight: "15px",
-                          flex: "0 0 auto",
-                          width: "50%",
-                          paddingTop: "0px",
-                          paddingBottom: "10px",
-                          alignContent: "flex-start",
-                          display: "flex",
-                        }}
-                      >
-                        <div
-                          className="pld-mr-5 md:pld-mr-10 is-flex-shrink-0"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            marginRight: "2.5rem",
-                            flexShrink: 0,
-                          }}
-                        >
-                          <img
-                            alt="icon avec deux personnes"
-                            src="https://souscrire.placement-direct.fr/images/icons/two-people.svg"
-                            style={{
-                              borderWidth: "0px",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              borderStyle: "solid",
-                              display: "block",
-                              verticalAlign: "middle",
-                              height: "auto",
-                              maxWidth: "60px",
-                            }}
-                          />
-                        </div>{" "}
-                        <div
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                          }}
-                        >
-                          <h5
-                            className="heading-3 pld-mb-1"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              margin: "0px",
-                              padding: "0px",
-                              marginBottom: "0.25rem",
-                              fontSize: "18px",
-                              fontWeight: 500,
-                              lineHeight: "24px",
-                            }}
-                          >
-                            Protection des données
-                          </h5>{" "}
-                          <p
-                            className="text"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              margin: "0px",
-                              padding: "0px",
-                              fontSize: "16px",
-                              lineHeight: "24px",
-                            }}
-                          >
-                            {
-                              "Toutes les informations que vous nous communiquez resteront confidentielles."
-                            }
-                          </p>
-                        </div>
-                      </div>{" "}
-                      <div
-                        className="is-flex column is-6"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          padding: "15px",
-                          flex: "0 0 auto",
-                          width: "50%",
-                          paddingTop: "0px",
-                          paddingBottom: "10px",
-                          display: "flex",
-                        }}
-                      >
-                        <div
-                          className="pld-mr-5 md:pld-mr-10 is-flex-shrink-0"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            marginRight: "2.5rem",
-                            flexShrink: 0,
-                          }}
-                        >
-                          <img
-                            alt="bouton on/off"
-                            src="https://souscrire.placement-direct.fr/images/icons/switch.svg"
-                            style={{
-                              borderWidth: "0px",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              borderStyle: "solid",
-                              display: "block",
-                              verticalAlign: "middle",
-                              height: "auto",
-                              maxWidth: "60px",
-                            }}
-                          />
-                        </div>{" "}
-                        <div
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                          }}
-                        >
-                          <h5
-                            className="heading-3 pld-mb-1"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              margin: "0px",
-                              padding: "0px",
-                              marginBottom: "0.25rem",
-                              fontSize: "18px",
-                              fontWeight: 500,
-                              lineHeight: "24px",
-                            }}
-                          >
-                            Sauvegarde automatique
-                          </h5>{" "}
-                          <p
-                            className="text"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              margin: "0px",
-                              padding: "0px",
-                              fontSize: "16px",
-                              lineHeight: "24px",
-                            }}
-                          >
-                            {
-                              "Reprenez à tout moment votre souscription là où vous l’avez laissée en utilisant le lien que vous venez de recevoir par email"
-                            }
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>{" "}
             </div>
           </section>
         </div>{" "}
-        <footer
-          className="footer"
-          style={{
-            borderWidth: "0px",
-            borderStyle: "solid",
-            borderColor: "rgba(229, 231, 235, 1)",
-            boxSizing: "inherit",
-            WebkitFontSmoothing: "antialiased",
-            display: "block",
-            background: "none",
-            backgroundColor: "initial",
-            padding: "60px 0px 0px",
-            paddingBottom: "0px",
-          }}
-        >
-          <div
-            className="container"
-            style={{
-              borderWidth: "0px",
-              borderStyle: "solid",
-              borderColor: "rgba(229, 231, 235, 1)",
-              boxSizing: "inherit",
-              WebkitFontSmoothing: "antialiased",
-              margin: "0px auto",
-              flexGrow: 1,
-              position: "relative",
-              width: "auto",
-              borderTop: "1px solid rgb(224, 222, 222)",
-              paddingTop: "32px",
-              maxWidth: "1344px",
-            }}
-          >
-            <div
-              className="columns mb-20"
-              style={{
-                borderWidth: "0px",
-                borderStyle: "solid",
-                borderColor: "rgba(229, 231, 235, 1)",
-                boxSizing: "inherit",
-                WebkitFontSmoothing: "antialiased",
-                marginLeft: "-15px",
-                marginRight: "-15px",
-                marginTop: "-15px",
-                display: "flex",
-                marginBottom: "20px",
-              }}
-            >
-              <div
-                className="column is-6"
-                style={{
-                  borderWidth: "0px",
-                  borderStyle: "solid",
-                  borderColor: "rgba(229, 231, 235, 1)",
-                  boxSizing: "inherit",
-                  WebkitFontSmoothing: "antialiased",
-                  padding: "15px",
-                  display: "block",
-                  flex: "0 0 auto",
-                  width: "50%",
-                }}
-              >
-                <div
-                  className="columns"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
-                    boxSizing: "inherit",
-                    WebkitFontSmoothing: "antialiased",
-                    marginLeft: "-15px",
-                    marginRight: "-15px",
-                    marginTop: "-15px",
-                    marginBottom: "-15px",
-                    display: "flex",
-                  }}
-                >
-                  <div
-                    className="column is-6"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      padding: "15px",
-                      display: "block",
-                      flex: "0 0 auto",
-                      width: "50%",
-                    }}
-                  >
-                    <img
-                      className="mb-30"
-                      width={142}
-                      alt="Placement direct"
-                      src="https://souscrire.placement-direct.fr/images/placement-direct-logo.svg"
-                      style={{
-                        borderWidth: "0px",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        borderStyle: "solid",
-                        display: "block",
-                        verticalAlign: "middle",
-                        height: "auto",
-                        maxWidth: "100%",
-                        marginBottom: "30px",
-                      }}
-                    />{" "}
-                    <div
-                      className="followUs is-uppercase footer-social"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      <p
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          padding: "0px",
-                          marginBottom: "12px",
-                          fontSize: "16px",
-                          fontWeight: 500,
-                          fontStretch: "normal",
-                          fontStyle: "normal",
-                          lineHeight: "normal",
-                          letterSpacing: "normal",
-                          color: "rgb(0, 0, 0)",
-                        }}
-                      >
-                        Suivez-nous
-                      </p>{" "}
-                      <a
-                        className="btn-pld btn-pld-social-share"
-                        href="https://www.linkedin.com/company/placement-direct"
-                        target="_blank"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          textDecoration: "none",
-                          cursor: "pointer",
-                          padding: "0px",
-                          margin: "0px 10px 10px 0px",
-                          display: "inline-block",
-                          color: "rgb(166, 165, 165)",
-                        }}
-                      >
-                        <span
-                          className="btn-pld-inner-wrapper"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            fontStyle: "inherit",
-                            fontWeight: "inherit",
-                            height: "inherit",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                          }}
-                        >
-                          <span
-                            className="icon"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              fontStyle: "inherit",
-                              fontWeight: "inherit",
-                              alignItems: "center",
-                              display: "inline-flex",
-                              justifyContent: "center",
-                              height: "1.5rem",
-                              width: "1.5rem",
-                              userSelect: "none",
-                              cursor: "inherit",
-                            }}
-                          >
-                            <i
-                              id="linkedin"
-                              className="mdi mdi-linkedin mdi-24px"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
-                                boxSizing: "inherit",
-                                WebkitFontSmoothing: "antialiased",
-                              }}
-                            />
-                          </span>
-                        </span>
-                      </a>{" "}
-                      <a
-                        className="btn-pld btn-pld-social-share"
-                        href="https://www.facebook.com/PlacementDirect/"
-                        target="_blank"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          textDecoration: "none",
-                          cursor: "pointer",
-                          padding: "0px",
-                          margin: "0px 10px 10px 0px",
-                          display: "inline-block",
-                          color: "rgb(166, 165, 165)",
-                        }}
-                      >
-                        <span
-                          className="btn-pld-inner-wrapper"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            fontStyle: "inherit",
-                            fontWeight: "inherit",
-                            height: "inherit",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                          }}
-                        >
-                          <span
-                            className="icon"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              fontStyle: "inherit",
-                              fontWeight: "inherit",
-                              alignItems: "center",
-                              display: "inline-flex",
-                              justifyContent: "center",
-                              height: "1.5rem",
-                              width: "1.5rem",
-                              userSelect: "none",
-                              cursor: "inherit",
-                            }}
-                          >
-                            <i
-                              id="facebook"
-                              className="mdi mdi-facebook mdi-24px"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
-                                boxSizing: "inherit",
-                                WebkitFontSmoothing: "antialiased",
-                              }}
-                            />
-                          </span>
-                        </span>
-                      </a>{" "}
-                      <a
-                        className="btn-pld btn-pld-social-share"
-                        href="https://twitter.com/placementdirect"
-                        target="_blank"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          textDecoration: "none",
-                          cursor: "pointer",
-                          padding: "0px",
-                          margin: "0px 10px 10px 0px",
-                          display: "inline-block",
-                          color: "rgb(166, 165, 165)",
-                        }}
-                      >
-                        <span
-                          className="btn-pld-inner-wrapper"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            fontStyle: "inherit",
-                            fontWeight: "inherit",
-                            height: "inherit",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                          }}
-                        >
-                          <span
-                            className="icon"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              fontStyle: "inherit",
-                              fontWeight: "inherit",
-                              alignItems: "center",
-                              display: "inline-flex",
-                              justifyContent: "center",
-                              height: "1.5rem",
-                              width: "1.5rem",
-                              userSelect: "none",
-                              cursor: "inherit",
-                            }}
-                          >
-                            <i
-                              id="twitter"
-                              className="mdi mdi-twitter mdi-24px"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
-                                boxSizing: "inherit",
-                                WebkitFontSmoothing: "antialiased",
-                              }}
-                            />
-                          </span>
-                        </span>
-                      </a>{" "}
-                      <a
-                        className="btn-pld btn-pld-social-share"
-                        href="https://www.youtube.com/channel/UCGCSiHv7lH0wnr4TRF56MIw/videos"
-                        target="_blank"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          textDecoration: "none",
-                          cursor: "pointer",
-                          padding: "0px",
-                          margin: "0px 10px 10px 0px",
-                          display: "inline-block",
-                          color: "rgb(166, 165, 165)",
-                        }}
-                      >
-                        <span
-                          className="btn-pld-inner-wrapper"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            fontStyle: "inherit",
-                            fontWeight: "inherit",
-                            height: "inherit",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                          }}
-                        >
-                          <span
-                            className="icon"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
-                              boxSizing: "inherit",
-                              WebkitFontSmoothing: "antialiased",
-                              fontStyle: "inherit",
-                              fontWeight: "inherit",
-                              alignItems: "center",
-                              display: "inline-flex",
-                              justifyContent: "center",
-                              height: "1.5rem",
-                              width: "1.5rem",
-                              userSelect: "none",
-                              cursor: "inherit",
-                            }}
-                          >
-                            <i
-                              id="youtube"
-                              className="mdi mdi-youtube mdi-24px"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
-                                boxSizing: "inherit",
-                                WebkitFontSmoothing: "antialiased",
-                              }}
-                            />
-                          </span>
-                        </span>
-                      </a>
-                    </div>
-                  </div>{" "}
-                  <div
-                    className="column is-6 footer-top-links"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      padding: "15px",
-                      display: "block",
-                      flex: "0 0 auto",
-                      width: "50%",
-                    }}
-                  >
-                    <ul
-                      className="pld-menu is-uppercase"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        margin: "0px",
-                        padding: "0px",
-                        listStyle: "none",
-                        position: "relative",
-                        marginLeft: "0px",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      <li
-                        className="pld-menu-item"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          position: "relative",
-                          padding: "0px 15px",
-                          display: "block",
-                          marginBottom: "17px",
-                          textAlign: "left",
-                        }}
-                      >
-                        <a
-                          href="https://www.placement-direct.fr/assurance-vie"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            transition:
-                              "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                            position: "relative",
-                            display: "inline-block",
-                            color: "rgb(0, 0, 0)",
-                            textTransform: "uppercase",
-                            fontWeight: 700,
-                            fontSize: "16px",
-                          }}
-                        >
-                          ASSURANCE VIE
-                        </a>
-                      </li>{" "}
-                      <li
-                        className="pld-menu-item"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          position: "relative",
-                          padding: "0px 15px",
-                          display: "block",
-                          marginBottom: "17px",
-                          textAlign: "left",
-                        }}
-                      >
-                        <a
-                          href="https://www.placement-direct.fr/retraite"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            transition:
-                              "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                            position: "relative",
-                            display: "inline-block",
-                            color: "rgb(0, 0, 0)",
-                            textTransform: "uppercase",
-                            fontWeight: 700,
-                            fontSize: "16px",
-                          }}
-                        >
-                          RETRAITE
-                        </a>
-                      </li>{" "}
-                      <li
-                        className="pld-menu-item"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          position: "relative",
-                          padding: "0px 15px",
-                          display: "block",
-                          marginBottom: "17px",
-                          textAlign: "left",
-                        }}
-                      >
-                        <a
-                          href="https://www.placement-direct.fr/actualites"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            transition:
-                              "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                            position: "relative",
-                            display: "inline-block",
-                            color: "rgb(0, 0, 0)",
-                            textTransform: "uppercase",
-                            fontWeight: 700,
-                            fontSize: "16px",
-                          }}
-                        >
-                          ACTUALITÉS
-                        </a>
-                      </li>{" "}
-                      <li
-                        className="pld-menu-item"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          position: "relative",
-                          padding: "0px 15px",
-                          display: "block",
-                          marginBottom: "17px",
-                          textAlign: "left",
-                        }}
-                      >
-                        <a
-                          href="https://www.placement-direct.fr/qui-sommes-nous"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            transition:
-                              "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                            position: "relative",
-                            display: "inline-block",
-                            color: "rgb(0, 0, 0)",
-                            textTransform: "uppercase",
-                            fontWeight: 700,
-                            fontSize: "16px",
-                          }}
-                        >
-                          Qui sommes-nous
-                        </a>
-                      </li>{" "}
-                      <li
-                        className="pld-menu-item"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          position: "relative",
-                          padding: "0px 15px",
-                          display: "block",
-                          marginBottom: "17px",
-                          textAlign: "left",
-                        }}
-                      >
-                        <a
-                          href="https://www.placement-direct.fr/contactez-nous"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            transition:
-                              "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                            position: "relative",
-                            display: "inline-block",
-                            color: "rgb(0, 0, 0)",
-                            textTransform: "uppercase",
-                            fontWeight: 700,
-                            fontSize: "16px",
-                          }}
-                        >
-                          CONTACTEZ-NOUS
-                        </a>
-                      </li>{" "}
-                      <li
-                        className="pld-menu-item"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          margin: "0px",
-                          position: "relative",
-                          padding: "0px 15px",
-                          display: "block",
-                          marginBottom: "17px",
-                          textAlign: "left",
-                        }}
-                      >
-                        <a
-                          href="https://www.placement-direct.fr/glossaire"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            transition:
-                              "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                            position: "relative",
-                            display: "inline-block",
-                            color: "rgb(0, 0, 0)",
-                            textTransform: "uppercase",
-                            fontWeight: 700,
-                            fontSize: "16px",
-                          }}
-                        >
-                          Glossaire
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-            <div
-              className="footer-bottom"
-              style={{
-                borderWidth: "0px",
-                borderStyle: "solid",
-                borderColor: "rgba(229, 231, 235, 1)",
-                boxSizing: "inherit",
-                WebkitFontSmoothing: "antialiased",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                flexDirection: "row",
-              }}
-            >
-              <div
-                className="has-text-left"
-                style={{
-                  borderWidth: "0px",
-                  borderStyle: "solid",
-                  borderColor: "rgba(229, 231, 235, 1)",
-                  boxSizing: "inherit",
-                  WebkitFontSmoothing: "antialiased",
-                  textAlign: "left",
-                }}
-              >
-                <p
-                  className="allRightsReserved"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
-                    boxSizing: "inherit",
-                    WebkitFontSmoothing: "antialiased",
-                    margin: "0px",
-                    padding: "0px",
-                    lineHeight: "24px",
-                    color: "rgb(0, 0, 0)",
-                    fontWeight: 400,
-                    fontSize: "14px",
-                  }}
-                >
-                  2023 Tous droits réservés
-                </p>
-              </div>{" "}
-              <div
-                className="has-text-right footer-bottom-links"
-                style={{
-                  borderWidth: "0px",
-                  borderStyle: "solid",
-                  borderColor: "rgba(229, 231, 235, 1)",
-                  boxSizing: "inherit",
-                  WebkitFontSmoothing: "antialiased",
-                  textAlign: "right",
-                }}
-              >
-                <ul
-                  className="pld-menu"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
-                    boxSizing: "inherit",
-                    WebkitFontSmoothing: "antialiased",
-                    margin: "0px",
-                    padding: "0px",
-                    listStyle: "none",
-                    position: "relative",
-                    marginLeft: "0px",
-                  }}
-                >
-                  <li
-                    className="pld-menu-item"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      margin: "0px",
-                      position: "relative",
-                      marginBottom: "17px",
-                      textAlign: "left",
-                      display: "inline-block",
-                      padding: "0px 8px",
-                    }}
-                  >
-                    <a
-                      href="https://www.placement-direct.fr/mentions-legales"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        textDecoration: "none",
-                        cursor: "pointer",
-                        transition:
-                          "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                        position: "relative",
-                        display: "inline-block",
-                        color: "rgb(0, 0, 0)",
-                        fontSize: "12px",
-                        textTransform: "none",
-                        fontWeight: 400,
-                      }}
-                    >
-                      Mentions légales
-                    </a>
-                  </li>{" "}
-                  <li
-                    className="pld-menu-item"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      margin: "0px",
-                      position: "relative",
-                      marginBottom: "17px",
-                      textAlign: "left",
-                      display: "inline-block",
-                      padding: "0px 8px",
-                    }}
-                  >
-                    <a
-                      href="https://www.placement-direct.fr/protection-des-donnees"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        textDecoration: "none",
-                        cursor: "pointer",
-                        transition:
-                          "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                        position: "relative",
-                        display: "inline-block",
-                        color: "rgb(0, 0, 0)",
-                        fontSize: "12px",
-                        textTransform: "none",
-                        fontWeight: 400,
-                      }}
-                    >
-                      Protection des données
-                    </a>
-                  </li>{" "}
-                  <li
-                    className="pld-menu-item"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      margin: "0px",
-                      position: "relative",
-                      marginBottom: "17px",
-                      textAlign: "left",
-                      display: "inline-block",
-                      padding: "0px 8px",
-                    }}
-                  >
-                    <a
-                      href="https://www.placement-direct.fr/sitemap"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        textDecoration: "none",
-                        cursor: "pointer",
-                        transition:
-                          "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                        position: "relative",
-                        display: "inline-block",
-                        color: "rgb(0, 0, 0)",
-                        fontSize: "12px",
-                        textTransform: "none",
-                        fontWeight: 400,
-                      }}
-                    >
-                      Plan du site
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
       <style
         dangerouslySetInnerHTML={{

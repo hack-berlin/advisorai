@@ -1,7 +1,8 @@
-//import Page3 from './Page2';
+import Page1 from './Page3';
+
 function Subscription() {
   return (
-    <div>Nothing</div>
+    <div><Page1></Page1></div>
   );
 }
 
