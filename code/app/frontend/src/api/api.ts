@@ -1,13 +1,16 @@
 import { ChatResponse, ConversationRequest } from "./models";
 
 export async function conversationApi(options: ConversationRequest, abortSignal: AbortSignal): Promise<Response> {
+    console.log("conversationApi", options)
+
     const response = await fetch("/api/conversation/azure_byod", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            messages: options.messages
+            messages: options.messages,
+            prompt: options.prompt
         }),
         signal: abortSignal
     });
@@ -17,6 +20,8 @@ export async function conversationApi(options: ConversationRequest, abortSignal:
 
 
 export async function customConversationApi(options: ConversationRequest, abortSignal: AbortSignal): Promise<Response> {
+    console.log("customConversationApi", options)
+
     const response = await fetch("/api/conversation/custom", {
         method: "POST",
         headers: {
@@ -24,7 +29,8 @@ export async function customConversationApi(options: ConversationRequest, abortS
         },
         body: JSON.stringify({
             messages: options.messages,
-            conversation_id: options.id
+            conversation_id: options.id,
+            prompt: options.prompt
         }),
         signal: abortSignal
     });
