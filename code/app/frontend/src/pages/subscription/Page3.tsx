@@ -102,87 +102,6 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     Votre choix d’allocation financière
                   </h1>{" "}
                   <div
-                    className="legend is-flex is-flex-wrap-wrap is-align-items-center has-text-grey"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      fontSize: "87%",
-                      color: "rgb(122, 122, 122)",
-                      flexWrap: "wrap",
-                      alignItems: "center",
-                      display: "flex",
-                    }}
-                  >
-                    <div
-                      className="is-flex is-align-items-start pld-mb-6 pld-mr-6"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        marginBottom: "1.5rem",
-                        marginRight: "1.5rem",
-                        alignItems: "start",
-                        display: "flex",
-                      }}
-                    >
-                      <img
-                        className="mr-10 is-flex-shrink-0"
-                        height={23}
-                        width={19}
-                        src="https://souscrire.placement-direct.fr/images/shield.svg"
-                        style={{
-                          borderWidth: "0px",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          borderStyle: "solid",
-                          display: "block",
-                          verticalAlign: "middle",
-                          height: "auto",
-                          maxWidth: "100%",
-                          flexShrink: 0,
-                          marginRight: "10px",
-                        }}
-                      />{" "}
-                      <span
-                        className="my-auto"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          fontStyle: "inherit",
-                          fontWeight: "inherit",
-                          marginTop: "auto",
-                          marginBottom: "auto",
-                        }}
-                      >
-                        Toutes les informations que vous nous communiquez
-                        resteront confidentielles.
-                      </span>
-                    </div>{" "}
-                    <div
-                      className="required pld-mb-6 ml-auto"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        marginBottom: "1.5rem",
-                        marginLeft: "auto",
-                      }}
-                    >
-                      {"required information"}
-                    </div>
-                  </div>{" "}
-                  <div
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
@@ -1641,63 +1560,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           }
                                         </span>
                                       </label>{" "}
-                                      <button
-                                        className="btn_1P7x4 block_1Jg7s outlined_3xSXE yellow_sJHfv pld-mx-auto"
-                                        aria-label="Suivant"
-                                        style={{
-                                          borderWidth: "0px",
-                                          borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
-                                          boxSizing: "inherit",
-                                          WebkitFontSmoothing: "antialiased",
-                                          appearance: "button",
-                                          lineHeight: "inherit",
-                                          margin: "0px",
-                                          fontFamily: "Roboto, sans-serif",
-                                          outline: "none",
-                                          border: "none",
-                                          background: "unset",
-                                          transition:
-                                            "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                                          alignItems: "center",
-                                          justifyContent: "center",
-                                          textTransform: "uppercase",
-                                          userSelect: "none",
-                                          cursor: "pointer",
-                                          fontWeight: 700,
-                                          backgroundImage: "unset",
-                                          fontSize: "17px",
-                                          marginLeft: "auto",
-                                          marginRight: "auto",
-                                          display: "flex",
-                                          borderRadius: "40px",
-                                          padding: "0px 40px",
-                                          height: "60px",
-                                          color: "rgb(10, 10, 10)",
-                                          backgroundColor: "rgb(255, 255, 255)",
-                                          marginTop: "calc(30px * calc(1 - 0))",
-                                          marginBottom: "calc(30px * 0)",
-                                          boxShadow:
-                                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
-                                        }}
-                                      >
-                                        {" "}
-                                        <span
-                                          style={{
-                                            borderWidth: "0px",
-                                            borderStyle: "solid",
-                                            borderColor:
-                                              "rgba(229, 231, 235, 1)",
-                                            boxSizing: "inherit",
-                                            WebkitFontSmoothing: "antialiased",
-                                            fontStyle: "inherit",
-                                            fontWeight: "inherit",
-                                            pointerEvents: "none",
-                                          }}
-                                        >
-                                          Suivant
-                                        </span>{" "}
-                                      </button>
+
                                     </div>
                                   </div>
                                 </div>
@@ -2396,63 +2259,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           </div>
                                         </section>
                                       </div>{" "}
-                                      <button
-                                        className="btn_1P7x4 block_1Jg7s outlined_3xSXE yellow_sJHfv pld-mx-auto"
-                                        aria-label="Suivant"
-                                        style={{
-                                          borderWidth: "0px",
-                                          borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
-                                          boxSizing: "inherit",
-                                          WebkitFontSmoothing: "antialiased",
-                                          appearance: "button",
-                                          lineHeight: "inherit",
-                                          margin: "0px",
-                                          fontFamily: "Roboto, sans-serif",
-                                          outline: "none",
-                                          border: "none",
-                                          background: "unset",
-                                          transition:
-                                            "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                                          alignItems: "center",
-                                          justifyContent: "center",
-                                          textTransform: "uppercase",
-                                          userSelect: "none",
-                                          cursor: "pointer",
-                                          fontWeight: 700,
-                                          backgroundImage: "unset",
-                                          fontSize: "17px",
-                                          marginLeft: "auto",
-                                          marginRight: "auto",
-                                          display: "flex",
-                                          borderRadius: "40px",
-                                          padding: "0px 40px",
-                                          height: "60px",
-                                          color: "rgb(10, 10, 10)",
-                                          backgroundColor: "rgb(255, 255, 255)",
-                                          marginTop: "calc(30px * calc(1 - 0))",
-                                          marginBottom: "calc(30px * 0)",
-                                          boxShadow:
-                                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
-                                        }}
-                                      >
-                                        {" "}
-                                        <span
-                                          style={{
-                                            borderWidth: "0px",
-                                            borderStyle: "solid",
-                                            borderColor:
-                                              "rgba(229, 231, 235, 1)",
-                                            boxSizing: "inherit",
-                                            WebkitFontSmoothing: "antialiased",
-                                            fontStyle: "inherit",
-                                            fontWeight: "inherit",
-                                            pointerEvents: "none",
-                                          }}
-                                        >
-                                          Suivant
-                                        </span>{" "}
-                                      </button>
+
                                     </div>
                                   </div>
                                 </div>
@@ -4571,63 +4378,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           </div>
                                         </div>
                                       </div>{" "}
-                                      <button
-                                        className="btn_1P7x4 block_1Jg7s outlined_3xSXE yellow_sJHfv pld-mx-auto is-hidden-touch"
-                                        aria-label="Suivant"
-                                        style={{
-                                          borderWidth: "0px",
-                                          borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
-                                          boxSizing: "inherit",
-                                          WebkitFontSmoothing: "antialiased",
-                                          appearance: "button",
-                                          lineHeight: "inherit",
-                                          margin: "0px",
-                                          fontFamily: "Roboto, sans-serif",
-                                          outline: "none",
-                                          border: "none",
-                                          background: "unset",
-                                          transition:
-                                            "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
-                                          alignItems: "center",
-                                          justifyContent: "center",
-                                          textTransform: "uppercase",
-                                          userSelect: "none",
-                                          cursor: "pointer",
-                                          fontWeight: 700,
-                                          backgroundImage: "unset",
-                                          fontSize: "17px",
-                                          marginLeft: "auto",
-                                          marginRight: "auto",
-                                          display: "flex",
-                                          borderRadius: "40px",
-                                          padding: "0px 40px",
-                                          height: "60px",
-                                          color: "rgb(10, 10, 10)",
-                                          backgroundColor: "rgb(255, 255, 255)",
-                                          marginTop: "calc(30px * calc(1 - 0))",
-                                          marginBottom: "calc(30px * 0)",
-                                          boxShadow:
-                                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
-                                        }}
-                                      >
-                                        {" "}
-                                        <span
-                                          style={{
-                                            borderWidth: "0px",
-                                            borderStyle: "solid",
-                                            borderColor:
-                                              "rgba(229, 231, 235, 1)",
-                                            boxSizing: "inherit",
-                                            WebkitFontSmoothing: "antialiased",
-                                            fontStyle: "inherit",
-                                            fontWeight: "inherit",
-                                            pointerEvents: "none",
-                                          }}
-                                        >
-                                          Suivant
-                                        </span>{" "}
-                                      </button>
+
                                     </div>
                                   </div>
                                 </div>

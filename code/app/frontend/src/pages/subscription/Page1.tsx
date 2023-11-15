@@ -106,86 +106,6 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     Vos coordonnées
                   </h1>{" "}
                   <div
-                    className="legend is-flex is-flex-wrap-wrap is-align-items-center has-text-grey"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      fontSize: "87%",
-                      color: "rgb(122, 122, 122)",
-                      flexWrap: "wrap",
-                      alignItems: "center",
-                      display: "flex",
-                    }}
-                  >
-                    <div
-                      className="is-flex is-align-items-start pld-mb-6 pld-mr-6"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        marginBottom: "1.5rem",
-                        marginRight: "1.5rem",
-                        alignItems: "start",
-                        display: "flex",
-                      }}
-                    >
-                      <img
-                        className="mr-10 is-flex-shrink-0"
-                        height={23}
-                        width={19}
-                        src="https://souscrire.placement-direct.fr/images/shield.svg"
-                        style={{
-                          borderWidth: "0px",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          borderStyle: "solid",
-                          display: "block",
-                          verticalAlign: "middle",
-                          height: "auto",
-                          maxWidth: "100%",
-                          flexShrink: 0,
-                          marginRight: "10px",
-                        }}
-                      />{" "}
-                      <span
-                        className="my-auto"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          fontStyle: "inherit",
-                          fontWeight: "inherit",
-                          marginTop: "auto",
-                          marginBottom: "auto",
-                        }}
-                      >
-                        All the information you provide to us will remain confidential.
-                      </span>
-                    </div>{" "}
-                    <div
-                      className="required pld-mb-6 ml-auto"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        marginBottom: "1.5rem",
-                        marginLeft: "auto",
-                      }}
-                    >
-                      {"required information"}
-                    </div>
-                  </div>{" "}
-                  <div
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
@@ -291,59 +211,6 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               >
                                 Personal Information
                               </h2>{" "}
-                              <a
-                                className="card-header-action ml-auto"
-                                role="button"
-                                style={{
-                                  borderWidth: "0px",
-                                  borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
-                                  boxSizing: "inherit",
-                                  WebkitFontSmoothing: "antialiased",
-                                  textDecoration: "none",
-                                  color: "rgb(72, 95, 199)",
-                                  cursor: "pointer",
-                                  marginLeft: "auto",
-                                }}
-                              >
-                                <svg
-                                  className="has-text-primary fill-current"
-                                  height="20"
-                                  width="30"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  role="img"
-                                  viewBox="0 0 448 512"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  style={{
-                                    borderWidth: "0px",
-                                    borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
-                                    boxSizing: "inherit",
-                                    WebkitFontSmoothing: "antialiased",
-                                    display: "block",
-                                    verticalAlign: "middle",
-                                    fill: "currentcolor",
-                                    transition: "rotate 0.2s ease-in-out 0s",
-                                    width: "30px",
-                                    height: "30px",
-                                    transform: "rotate(180deg)",
-                                    transformOrigin: "center center",
-                                    color: "rgb(27, 67, 172)",
-                                  }}
-                                >
-                                  <path
-                                    d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"
-                                    style={{
-                                      borderWidth: "0px",
-                                      borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
-                                      boxSizing: "inherit",
-                                      WebkitFontSmoothing: "antialiased",
-                                    }}
-                                  />
-                                </svg>
-                              </a>
                             </div>{" "}
                             <div
                               className="break"
@@ -1088,42 +955,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         *
                                       </span>
                                     </label>{" "}
-                                    <span
-                                      className="mx-10 is-flex-shrink-0"
-                                      style={{
-                                        borderWidth: "0px",
-                                        borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
-                                        boxSizing: "inherit",
-                                        WebkitFontSmoothing: "antialiased",
-                                        fontStyle: "inherit",
-                                        fontWeight: "inherit",
-                                        cursor: "pointer",
-                                        flexShrink: 0,
-                                        marginLeft: "10px",
-                                        marginRight: "10px",
-                                      }}
-                                    >
-                                      <img
-                                        id="iconHelp"
-                                        className="is-block"
-                                        height={20}
-                                        width={20}
-                                        aria-expanded="false"
-                                        src="https://souscrire.placement-direct.fr/images/help.svg"
-                                        style={{
-                                          borderWidth: "0px",
-                                          borderColor: "rgba(229, 231, 235, 1)",
-                                          boxSizing: "inherit",
-                                          WebkitFontSmoothing: "antialiased",
-                                          borderStyle: "solid",
-                                          verticalAlign: "middle",
-                                          height: "auto",
-                                          maxWidth: "100%",
-                                          display: "block",
-                                        }}
-                                      />
-                                    </span>
+
                                   </label>{" "}
                                   <div
                                     className="pld-mt-4"
@@ -1568,6 +1400,830 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             </div>
                           </div>{" "}
                         </div>{" "}
+                      </div>{" "}
+                      <div
+                        id="contentIdForA11y3"
+                        className="accordion-content"
+                        aria-expanded="true"
+                        style={{
+                          borderWidth: "0px",
+                          borderStyle: "solid",
+                          borderColor: "rgba(229, 231, 235, 1)",
+                          boxSizing: "inherit",
+                          WebkitFontSmoothing: "antialiased",
+                          padding: "0px 30px 30px",
+                        }}
+                      >
+                        {" "}
+                        <span
+                          id="InformationsFamiliales"
+                          className="full-select"
+                          style={{
+                            borderWidth: "0px",
+                            borderStyle: "solid",
+                            borderColor: "rgba(229, 231, 235, 1)",
+                            boxSizing: "inherit",
+                            WebkitFontSmoothing: "antialiased",
+                            fontStyle: "inherit",
+                            fontWeight: "inherit",
+                          }}
+                        >
+                          <div
+                            className="columns is-multiline"
+                            style={{
+                              borderWidth: "0px",
+                              borderStyle: "solid",
+                              borderColor: "rgba(229, 231, 235, 1)",
+                              boxSizing: "inherit",
+                              WebkitFontSmoothing: "antialiased",
+                              marginLeft: "-15px",
+                              marginRight: "-15px",
+                              flexWrap: "wrap",
+                              display: "flex",
+                              marginTop: "0px",
+                              marginBottom: "0px",
+                            }}
+                          >
+                            <div
+                              className="column is-12"
+                              style={{
+                                borderWidth: "0px",
+                                borderStyle: "solid",
+                                borderColor: "rgba(229, 231, 235, 1)",
+                                boxSizing: "inherit",
+                                WebkitFontSmoothing: "antialiased",
+                                padding: "15px",
+                                display: "block",
+                                flex: "0 0 auto",
+                                width: "100%",
+                                paddingTop: "0px",
+                                paddingBottom: "10px",
+                              }}
+                            >
+                              <div
+                                style={{
+                                  borderWidth: "0px",
+                                  borderStyle: "solid",
+                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  boxSizing: "inherit",
+                                  WebkitFontSmoothing: "antialiased",
+                                }}
+                              >
+                                <div
+                                  className="input-row"
+                                  style={{
+                                    borderWidth: "0px",
+                                    borderStyle: "solid",
+                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    boxSizing: "inherit",
+                                    WebkitFontSmoothing: "antialiased",
+                                    paddingTop: "10px",
+                                    paddingBottom: "4px",
+                                  }}
+                                >
+                                  <div
+                                    style={{
+                                      borderWidth: "0px",
+                                      borderStyle: "solid",
+                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      boxSizing: "inherit",
+                                      WebkitFontSmoothing: "antialiased",
+                                    }}
+                                  >
+                                    {" "}
+                                    <div
+                                      id="SituationFamille"
+                                      className="field"
+                                      style={{
+                                        borderWidth: "0px",
+                                        borderStyle: "solid",
+                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        boxSizing: "inherit",
+                                        WebkitFontSmoothing: "antialiased",
+                                      }}
+                                    >
+                                      {" "}
+                                      <label
+                                        className="label"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          display: "flex",
+                                          alignItems: "center",
+                                          fontWeight: 500,
+                                          color: "rgb(0, 0, 0)",
+                                          fontSize: "16px",
+                                          marginBottom: "5px",
+                                        }}
+                                      >
+                                        <label
+                                          className="input_label_mqESs"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            fontWeight: 500,
+                                            fontSize: "18px",
+                                            lineHeight: "28px",
+                                          }}
+                                        >
+                                          <span
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                            }}
+                                          >
+                                            Quelle est votre situation familiale ?
+                                          </span>
+
+                                          <span
+                                            className="required_1oOjx"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                              color: "rgb(255, 209, 0)",
+                                            }}
+                                          >
+                                            *
+                                          </span>
+                                        </label>{" "}
+                                      </label>{" "}
+                                      <div
+                                        className="pld-mt-4"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          marginTop: "1rem",
+                                        }}
+                                      >
+                                        <div
+                                          className="control is-expanded w-input"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            WebkitFontSmoothing: "antialiased",
+                                            boxSizing: "border-box",
+                                            clear: "both",
+                                            fontSize: "1rem",
+                                            position: "relative",
+                                            textAlign: "inherit",
+                                            width: "35%",
+                                          }}
+                                        >
+                                          <span
+                                            className="select is-medium is-fullwidth is-rounded"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                              display: "inline-block",
+                                              maxWidth: "100%",
+                                              position: "relative",
+                                              verticalAlign: "top",
+                                              fontSize: "1.25rem",
+                                              width: "100%",
+                                              height: "auto",
+                                            }}
+                                          >
+                                            <select
+                                              id="select_situation_famille"
+                                              style={{
+                                                borderWidth: "0px",
+                                                borderStyle: "solid",
+                                                boxSizing: "inherit",
+                                                WebkitFontSmoothing:
+                                                  "antialiased",
+                                                textTransform: "none",
+                                                margin: "0px",
+                                                fontFamily: "Roboto, sans-serif",
+                                                border: "1px solid transparent",
+                                                padding:
+                                                  "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                appearance: "none",
+                                                alignItems: "center",
+                                                boxShadow: "none",
+                                                justifyContent: "flex-start",
+                                                position: "relative",
+                                                verticalAlign: "top",
+                                                borderColor: "rgb(224, 222, 222)",
+                                                backgroundColor:
+                                                  "rgb(255, 255, 255)",
+                                                outline: "none",
+                                                cursor: "pointer",
+                                                display: "block",
+                                                maxWidth: "100%",
+                                                borderRadius: "9999px",
+                                                paddingLeft: "1em",
+                                                paddingRight: "2.5em",
+                                                width: "100%",
+                                                fontWeight: 400,
+                                                fontStretch: "normal",
+                                                fontStyle: "normal",
+                                                lineHeight: "normal",
+                                                letterSpacing: "normal",
+                                                color: "rgb(0, 0, 0)",
+                                                fontSize: "16px",
+                                                height: "50px",
+                                                textRendering: "auto",
+                                                paddingTop: "0px",
+                                                paddingBottom: "0px",
+                                              }}
+                                            >
+                                              <option
+                                                value="10"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Marié"}
+                                              </option>
+                                              <option
+                                                value="11"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Séparé"}
+                                              </option>
+                                              <option
+                                                value="12"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Concubin"}
+                                              </option>
+                                              <option
+                                                value="13"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Célibataire"}
+                                              </option>
+                                              <option
+                                                value="14"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Divorcé"}
+                                              </option>
+                                              <option
+                                                value="15"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Pacsé"}
+                                              </option>
+                                              <option
+                                                value="17"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Veuf"}
+                                              </option>{" "}
+                                            </select>
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <p
+                                        className="help"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          margin: "0px",
+                                          padding: "0px",
+                                          display: "block",
+                                          paddingTop: "0px",
+                                          marginTop: "10px",
+                                          fontSize: "14px",
+                                          fontWeight: 400,
+                                          fontStretch: "normal",
+                                          fontStyle: "normal",
+                                          lineHeight: 1.36,
+                                          letterSpacing: "normal",
+                                        }}
+                                      >
+                                        <ul
+                                          className="is-italic"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            margin: "0px",
+                                            padding: "0px",
+                                            listStyle: "none",
+                                            fontStyle: "italic",
+                                            marginBottom: "10px",
+                                          }}
+                                        >
+                                          <li
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              margin: "0px",
+                                              padding: "0px",
+                                              marginBottom: "10px",
+                                            }}
+                                          />
+                                        </ul>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>{" "}
+                          </div>
+                        </span>{" "}
+
+                      </div>{" "}
+                      <div
+                        id="contentIdForA11y3"
+                        className="accordion-content"
+                        aria-expanded="true"
+                        style={{
+                          borderWidth: "0px",
+                          borderStyle: "solid",
+                          borderColor: "rgba(229, 231, 235, 1)",
+                          boxSizing: "inherit",
+                          WebkitFontSmoothing: "antialiased",
+                          padding: "0px 30px 30px",
+                        }}
+                      >
+                        {" "}
+                        <span
+                          id="InformationsFamiliales"
+                          className="full-select"
+                          style={{
+                            borderWidth: "0px",
+                            borderStyle: "solid",
+                            borderColor: "rgba(229, 231, 235, 1)",
+                            boxSizing: "inherit",
+                            WebkitFontSmoothing: "antialiased",
+                            fontStyle: "inherit",
+                            fontWeight: "inherit",
+                          }}
+                        >
+                          <div
+                            className="columns is-multiline"
+                            style={{
+                              borderWidth: "0px",
+                              borderStyle: "solid",
+                              borderColor: "rgba(229, 231, 235, 1)",
+                              boxSizing: "inherit",
+                              WebkitFontSmoothing: "antialiased",
+                              marginLeft: "-15px",
+                              marginRight: "-15px",
+                              flexWrap: "wrap",
+                              display: "flex",
+                              marginTop: "0px",
+                              marginBottom: "0px",
+                            }}
+                          >
+                            <div
+                              className="column is-12"
+                              style={{
+                                borderWidth: "0px",
+                                borderStyle: "solid",
+                                borderColor: "rgba(229, 231, 235, 1)",
+                                boxSizing: "inherit",
+                                WebkitFontSmoothing: "antialiased",
+                                padding: "15px",
+                                display: "block",
+                                flex: "0 0 auto",
+                                width: "100%",
+                                paddingTop: "0px",
+                                paddingBottom: "10px",
+                              }}
+                            >
+                              <div
+                                style={{
+                                  borderWidth: "0px",
+                                  borderStyle: "solid",
+                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  boxSizing: "inherit",
+                                  WebkitFontSmoothing: "antialiased",
+                                }}
+                              >
+                                <div
+                                  className="input-row"
+                                  style={{
+                                    borderWidth: "0px",
+                                    borderStyle: "solid",
+                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    boxSizing: "inherit",
+                                    WebkitFontSmoothing: "antialiased",
+                                    paddingTop: "10px",
+                                    paddingBottom: "4px",
+                                  }}
+                                >
+                                  <div
+                                    style={{
+                                      borderWidth: "0px",
+                                      borderStyle: "solid",
+                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      boxSizing: "inherit",
+                                      WebkitFontSmoothing: "antialiased",
+                                    }}
+                                  >
+                                    {" "}
+                                    <div
+                                      id="SituationFamille"
+                                      className="field"
+                                      style={{
+                                        borderWidth: "0px",
+                                        borderStyle: "solid",
+                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        boxSizing: "inherit",
+                                        WebkitFontSmoothing: "antialiased",
+                                      }}
+                                    >
+                                      {" "}
+                                      <label
+                                        className="label"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          display: "flex",
+                                          alignItems: "center",
+                                          fontWeight: 500,
+                                          color: "rgb(0, 0, 0)",
+                                          fontSize: "16px",
+                                          marginBottom: "5px",
+                                        }}
+                                      >
+                                        <label
+                                          className="input_label_mqESs"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            fontWeight: 500,
+                                            fontSize: "18px",
+                                            lineHeight: "28px",
+                                          }}
+                                        >
+                                          <span
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                            }}
+                                          >
+                                            What is your marital regime?
+                                          </span>
+
+                                          <span
+                                            className="required_1oOjx"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                              color: "rgb(255, 209, 0)",
+                                            }}
+                                          >
+                                            *
+                                          </span>
+                                        </label>{" "}
+                                      </label>{" "}
+                                      <div
+                                        className="pld-mt-4"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          marginTop: "1rem",
+                                        }}
+                                      >
+                                        <div
+                                          className="control is-expanded w-input"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            WebkitFontSmoothing: "antialiased",
+                                            boxSizing: "border-box",
+                                            clear: "both",
+                                            fontSize: "1rem",
+                                            position: "relative",
+                                            textAlign: "inherit",
+                                            width: "35%",
+                                          }}
+                                        >
+                                          <span
+                                            className="select is-medium is-fullwidth is-rounded"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                              display: "inline-block",
+                                              maxWidth: "100%",
+                                              position: "relative",
+                                              verticalAlign: "top",
+                                              fontSize: "1.25rem",
+                                              width: "100%",
+                                              height: "auto",
+                                            }}
+                                          >
+                                            <select
+                                              id="select_situation_famille"
+                                              style={{
+                                                borderWidth: "0px",
+                                                borderStyle: "solid",
+                                                boxSizing: "inherit",
+                                                WebkitFontSmoothing:
+                                                  "antialiased",
+                                                textTransform: "none",
+                                                margin: "0px",
+                                                fontFamily: "Roboto, sans-serif",
+                                                border: "1px solid transparent",
+                                                padding:
+                                                  "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                appearance: "none",
+                                                alignItems: "center",
+                                                boxShadow: "none",
+                                                justifyContent: "flex-start",
+                                                position: "relative",
+                                                verticalAlign: "top",
+                                                borderColor: "rgb(224, 222, 222)",
+                                                backgroundColor:
+                                                  "rgb(255, 255, 255)",
+                                                outline: "none",
+                                                cursor: "pointer",
+                                                display: "block",
+                                                maxWidth: "100%",
+                                                borderRadius: "9999px",
+                                                paddingLeft: "1em",
+                                                paddingRight: "2.5em",
+                                                width: "100%",
+                                                fontWeight: 400,
+                                                fontStretch: "normal",
+                                                fontStyle: "normal",
+                                                lineHeight: "normal",
+                                                letterSpacing: "normal",
+                                                color: "rgb(0, 0, 0)",
+                                                fontSize: "16px",
+                                                height: "50px",
+                                                textRendering: "auto",
+                                                paddingTop: "0px",
+                                                paddingBottom: "0px",
+                                              }}
+                                            >
+
+                                              <option
+                                                value="13"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Community reduced to acquests"}
+                                              </option>
+                                              <option
+                                                value="14"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Separation of property"}
+                                              </option>
+                                              <option
+                                                value="15"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Universal community"}
+                                              </option>
+                                              <option
+                                                value="17"
+                                                style={{
+                                                  borderWidth: "0px",
+                                                  borderStyle: "solid",
+                                                  borderColor:
+                                                    "rgba(229, 231, 235, 1)",
+                                                  boxSizing: "inherit",
+                                                  WebkitFontSmoothing:
+                                                    "antialiased",
+                                                  padding:
+                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                  color: "rgb(74, 74, 74)",
+                                                }}
+                                              >
+                                                {"Participation in acquisitions"}
+                                              </option>{" "}
+                                            </select>
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <p
+                                        className="help"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          margin: "0px",
+                                          padding: "0px",
+                                          display: "block",
+                                          paddingTop: "0px",
+                                          marginTop: "10px",
+                                          fontSize: "14px",
+                                          fontWeight: 400,
+                                          fontStretch: "normal",
+                                          fontStyle: "normal",
+                                          lineHeight: 1.36,
+                                          letterSpacing: "normal",
+                                        }}
+                                      >
+                                        <ul
+                                          className="is-italic"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            margin: "0px",
+                                            padding: "0px",
+                                            listStyle: "none",
+                                            fontStyle: "italic",
+                                            marginBottom: "10px",
+                                          }}
+                                        >
+                                          <li
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              margin: "0px",
+                                              padding: "0px",
+                                              marginBottom: "10px",
+                                            }}
+                                          />
+                                        </ul>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>{" "}
+                          </div>
+                        </span>{" "}
+
                       </div>{" "}
                     </div>
                   </div>
