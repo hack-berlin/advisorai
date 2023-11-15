@@ -179,7 +179,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         marginLeft: "auto",
                       }}
                     >
-                      {"informations obligatoires"}
+                      {"required information"}
                     </div>
                   </div>{" "}
                   <div

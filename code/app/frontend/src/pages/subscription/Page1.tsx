@@ -167,8 +167,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           marginBottom: "auto",
                         }}
                       >
-                        Toutes les informations que vous nous communiquez
-                        resteront confidentielles.
+                        All the information you provide to us will remain confidential.
                       </span>
                     </div>{" "}
                     <div
@@ -183,7 +182,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         marginLeft: "auto",
                       }}
                     >
-                      {"informations obligatoires"}
+                      {"required information"}
                     </div>
                   </div>{" "}
                   <div
@@ -290,7 +289,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   lineHeight: "34px",
                                 }}
                               >
-                                Informations personnelles
+                                Personal Information
                               </h2>{" "}
                               <a
                                 className="card-header-action ml-auto"
