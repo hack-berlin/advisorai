@@ -1,32 +1,41 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
+import { AppContext } from '../context';
 
 function Subscription() {
+  const { state, setState } = useContext<any>(AppContext);
+
   const [page, setPage] = useState('page1');
   const onNextClick = () => {
     switch (page) {
       case 'page1':
         setPage('page2');
+        setState({ ...state, prompt: 'generic' })
         break;
       case 'page2':
         setPage('page3');
+        setState({ ...state, prompt: 'generic' })
         break;
       case 'page3':
         setPage('page4');
+        setState({ ...state, prompt: 'darjeeling' })
         break;
       case 'page4':
         setPage('page5');
+        setState({ ...state, prompt: 'darjeeling' })
         break;
       case 'page5':
         setPage('page1');
+        setState({ ...state, prompt: 'generic' })
         break;
 
       default:
         setPage('page1');
+        setState({ ...state, prompt: 'generic' })
         break;
     }
   }
