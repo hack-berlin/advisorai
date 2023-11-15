@@ -280,7 +280,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           backgroundColor: "rgb(255, 255, 255)",
                           minWidth: "200px",
                           boxShadow:
-                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
+                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #C21449",
                         }}
                       >
                         {" "}

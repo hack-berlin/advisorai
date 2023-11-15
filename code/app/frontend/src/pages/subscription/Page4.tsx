@@ -96,7 +96,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       textAlign: "center",
                       marginBottom: "28px",
                       letterSpacing: "normal",
-                      color: "rgb(27, 67, 172)",
+                      color: "black",
                     }}
                   >
                     Your product choice
@@ -174,7 +174,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             margin: "0px",
                             padding: "0px",
                             letterSpacing: "normal",
-                            color: "rgb(27, 67, 172)",
+                            color: "black",
                             fontStretch: "normal",
                             fontStyle: "normal",
                             marginTop: "0px",
@@ -304,9 +304,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         fontWeight: 500,
                                         backgroundColor: "rgb(255, 255, 255)",
                                         border: "2px solid rgb(122, 122, 122)",
-                                        borderColor: "rgb(27, 67, 172)",
+                                        borderColor: "black",
                                         borderWidth: "3px",
-                                        color: "rgb(27, 67, 172)",
+                                        color: "black",
                                       }}
                                     >
                                       {" "}
@@ -373,7 +373,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             flexShrink: 0,
                                             position: "relative",
                                             cursor: "pointer",
-                                            borderColor: "rgb(27, 67, 172)",
+                                            borderColor: "black",
                                             border: "2px solid rgb(10, 10, 10)",
                                             width: "20px",
                                             height: "20px",
@@ -593,7 +593,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           backgroundColor: "rgb(255, 255, 255)",
                           minWidth: "200px",
                           boxShadow:
-                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
+                            "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #C21449",
                         }}
                       >
                         {" "}

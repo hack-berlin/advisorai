@@ -9,7 +9,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
         style={{
           borderWidth: "0px",
           borderStyle: "solid",
-          borderColor: "rgba(229, 231, 235, 1)",
+          borderColor: "rgba(194, 20, 73, 1)",
           boxSizing: "inherit",
           WebkitFontSmoothing: "antialiased",
           padding: "3rem",
@@ -21,7 +21,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
           style={{
             borderWidth: "0px",
             borderStyle: "solid",
-            borderColor: "rgba(229, 231, 235, 1)",
+            borderColor: "rgba(194, 20, 73, 1)",
             boxSizing: "inherit",
             WebkitFontSmoothing: "antialiased",
             margin: "0px auto",
@@ -36,7 +36,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
             style={{
               borderWidth: "0px",
               borderStyle: "solid",
-              borderColor: "rgba(229, 231, 235, 1)",
+              borderColor: "rgba(194, 20, 73, 1)",
               boxSizing: "inherit",
               WebkitFontSmoothing: "antialiased",
               display: "block",
@@ -47,7 +47,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
               style={{
                 borderWidth: "0px",
                 borderStyle: "solid",
-                borderColor: "rgba(229, 231, 235, 1)",
+                borderColor: "rgba(194, 20, 73, 1)",
                 boxSizing: "inherit",
                 WebkitFontSmoothing: "antialiased",
                 marginLeft: "-15px",
@@ -64,7 +64,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                 style={{
                   borderWidth: "0px",
                   borderStyle: "solid",
-                  borderColor: "rgba(229, 231, 235, 1)",
+                  borderColor: "rgba(194, 20, 73, 1)",
                   boxSizing: "inherit",
                   WebkitFontSmoothing: "antialiased",
                   flex: "1 1 0px",
@@ -78,7 +78,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                   style={{
                     borderWidth: "0px",
                     borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
+                    borderColor: "rgba(194, 20, 73, 1)",
                     boxSizing: "inherit",
                     WebkitFontSmoothing: "antialiased",
                     marginBottom: "20px",
@@ -89,7 +89,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
+                      borderColor: "rgba(194, 20, 73, 1)",
                       boxSizing: "inherit",
                       WebkitFontSmoothing: "antialiased",
                       margin: "0px",
@@ -109,7 +109,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
+                      borderColor: "rgba(194, 20, 73, 1)",
                       boxSizing: "inherit",
                       WebkitFontSmoothing: "antialiased",
                     }}
@@ -120,7 +120,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       style={{
                         borderWidth: "0px",
                         borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
+                        borderColor: "rgba(194, 20, 73, 1)",
                         boxSizing: "inherit",
                         WebkitFontSmoothing: "antialiased",
                         borderRadius: "0.25rem",
@@ -137,7 +137,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         style={{
                           borderWidth: "0px",
                           borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
+                          borderColor: "rgba(194, 20, 73, 1)",
                           boxSizing: "inherit",
                           WebkitFontSmoothing: "antialiased",
                         }}
@@ -147,7 +147,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           style={{
                             borderWidth: "0px",
                             borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
+                            borderColor: "rgba(194, 20, 73, 1)",
                             boxSizing: "inherit",
                             WebkitFontSmoothing: "antialiased",
                           }}
@@ -157,7 +157,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               backgroundColor: "transparent",
@@ -179,7 +179,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 alignItems: "center",
@@ -193,7 +193,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                   margin: "0px",
@@ -217,7 +217,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 flexBasis: "100%",
@@ -234,7 +234,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         style={{
                           borderWidth: "0px",
                           borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
+                          borderColor: "rgba(194, 20, 73, 1)",
                           boxSizing: "inherit",
                           WebkitFontSmoothing: "antialiased",
                           padding: "0px 30px 30px",
@@ -246,7 +246,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           style={{
                             borderWidth: "0px",
                             borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
+                            borderColor: "rgba(194, 20, 73, 1)",
                             boxSizing: "inherit",
                             WebkitFontSmoothing: "antialiased",
                           }}
@@ -256,7 +256,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -271,7 +271,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 flex: "1 1 0px",
@@ -288,7 +288,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -303,7 +303,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 flex: "1 1 0px",
@@ -318,7 +318,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                   paddingTop: "10px",
@@ -332,7 +332,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    borderColor: "rgba(194, 20, 73, 1)",
                                     boxSizing: "inherit",
                                     WebkitFontSmoothing: "antialiased",
                                   }}
@@ -343,7 +343,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       display: "flex",
@@ -359,7 +359,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         fontWeight: 500,
@@ -371,7 +371,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -386,7 +386,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -403,7 +403,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       marginTop: "1rem",
@@ -415,7 +415,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         flex: "5 1 0px",
@@ -428,7 +428,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           justifyContent: "flex-start",
@@ -446,7 +446,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             borderWidth: "0px",
                                             borderStyle: "solid",
                                             borderColor:
-                                              "rgba(229, 231, 235, 1)",
+                                              "rgba(194, 20, 73, 1)",
                                             WebkitFontSmoothing: "antialiased",
                                             boxSizing: "border-box",
                                             clear: "both",
@@ -513,7 +513,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       margin: "0px",
@@ -534,7 +534,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         margin: "0px",
@@ -548,7 +548,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           margin: "0px",
@@ -567,7 +567,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -582,7 +582,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 flex: "1 1 0px",
@@ -597,7 +597,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                   paddingTop: "10px",
@@ -611,7 +611,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    borderColor: "rgba(194, 20, 73, 1)",
                                     boxSizing: "inherit",
                                     WebkitFontSmoothing: "antialiased",
                                   }}
@@ -622,7 +622,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       display: "flex",
@@ -638,7 +638,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         fontWeight: 500,
@@ -650,7 +650,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -665,7 +665,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -682,7 +682,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       marginTop: "1rem",
@@ -694,7 +694,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         flex: "5 1 0px",
@@ -707,7 +707,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           justifyContent: "flex-start",
@@ -725,7 +725,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             borderWidth: "0px",
                                             borderStyle: "solid",
                                             borderColor:
-                                              "rgba(229, 231, 235, 1)",
+                                              "rgba(194, 20, 73, 1)",
                                             WebkitFontSmoothing: "antialiased",
                                             boxSizing: "border-box",
                                             clear: "both",
@@ -792,7 +792,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       margin: "0px",
@@ -813,7 +813,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         margin: "0px",
@@ -827,7 +827,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           margin: "0px",
@@ -846,7 +846,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -861,7 +861,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 flex: "1 1 0px",
@@ -876,7 +876,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                   paddingTop: "10px",
@@ -890,7 +890,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    borderColor: "rgba(194, 20, 73, 1)",
                                     boxSizing: "inherit",
                                     WebkitFontSmoothing: "antialiased",
                                   }}
@@ -901,7 +901,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       display: "flex",
@@ -917,7 +917,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         fontWeight: 500,
@@ -929,7 +929,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -944,7 +944,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -962,7 +962,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       marginTop: "1rem",
@@ -974,7 +974,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         flex: "5 1 0px",
@@ -987,7 +987,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           justifyContent: "flex-start",
@@ -1005,7 +1005,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             borderWidth: "0px",
                                             borderStyle: "solid",
                                             borderColor:
-                                              "rgba(229, 231, 235, 1)",
+                                              "rgba(194, 20, 73, 1)",
                                             WebkitFontSmoothing: "antialiased",
                                             boxSizing: "border-box",
                                             clear: "both",
@@ -1071,7 +1071,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       margin: "0px",
@@ -1092,7 +1092,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         margin: "0px",
@@ -1106,7 +1106,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           margin: "0px",
@@ -1125,7 +1125,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -1140,7 +1140,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 flex: "1 1 0px",
@@ -1155,7 +1155,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                   paddingTop: "10px",
@@ -1169,7 +1169,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    borderColor: "rgba(194, 20, 73, 1)",
                                     boxSizing: "inherit",
                                     WebkitFontSmoothing: "antialiased",
                                   }}
@@ -1180,7 +1180,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       display: "flex",
@@ -1196,7 +1196,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         fontWeight: 500,
@@ -1208,7 +1208,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -1223,7 +1223,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           fontStyle: "inherit",
@@ -1240,7 +1240,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       marginTop: "1rem",
@@ -1252,7 +1252,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         flex: "5 1 0px",
@@ -1265,7 +1265,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           justifyContent: "flex-start",
@@ -1283,7 +1283,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             borderWidth: "0px",
                                             borderStyle: "solid",
                                             borderColor:
-                                              "rgba(229, 231, 235, 1)",
+                                              "rgba(194, 20, 73, 1)",
                                             WebkitFontSmoothing: "antialiased",
                                             boxSizing: "border-box",
                                             clear: "both",
@@ -1350,7 +1350,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       margin: "0px",
@@ -1371,7 +1371,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                         margin: "0px",
@@ -1385,7 +1385,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           margin: "0px",
@@ -1408,7 +1408,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         style={{
                           borderWidth: "0px",
                           borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
+                          borderColor: "rgba(194, 20, 73, 1)",
                           boxSizing: "inherit",
                           WebkitFontSmoothing: "antialiased",
                           padding: "0px 30px 30px",
@@ -1421,7 +1421,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           style={{
                             borderWidth: "0px",
                             borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
+                            borderColor: "rgba(194, 20, 73, 1)",
                             boxSizing: "inherit",
                             WebkitFontSmoothing: "antialiased",
                             fontStyle: "inherit",
@@ -1433,7 +1433,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -1449,7 +1449,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 padding: "15px",
@@ -1464,7 +1464,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                 }}
@@ -1474,7 +1474,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    borderColor: "rgba(194, 20, 73, 1)",
                                     boxSizing: "inherit",
                                     WebkitFontSmoothing: "antialiased",
                                     paddingTop: "10px",
@@ -1485,7 +1485,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                     }}
@@ -1497,7 +1497,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                       }}
@@ -1508,7 +1508,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           display: "flex",
@@ -1524,7 +1524,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
-                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            borderColor: "rgba(194, 20, 73, 1)",
                                             boxSizing: "inherit",
                                             WebkitFontSmoothing: "antialiased",
                                             fontWeight: 500,
@@ -1537,14 +1537,14 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
                                               fontWeight: "inherit",
                                             }}
                                           >
-                                            What is your marital status?
+                                            What is your annual salary?
                                           </span>
 
                                           <span
@@ -1553,7 +1553,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
@@ -1570,7 +1570,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           marginTop: "1rem",
@@ -1581,7 +1581,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
-                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            borderColor: "rgba(194, 20, 73, 1)",
                                             WebkitFontSmoothing: "antialiased",
                                             boxSizing: "border-box",
                                             clear: "both",
@@ -1597,7 +1597,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
@@ -1611,137 +1611,52 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               height: "auto",
                                             }}
                                           >
-                                            <select
-                                              id="select_situation_famille"
-                                              style={{
-                                                borderWidth: "0px",
-                                                borderStyle: "solid",
-                                                boxSizing: "inherit",
-                                                WebkitFontSmoothing:
-                                                  "antialiased",
-                                                textTransform: "none",
-                                                margin: "0px",
-                                                fontFamily: "Roboto, sans-serif",
-                                                border: "1px solid transparent",
-                                                padding:
-                                                  "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                appearance: "none",
-                                                alignItems: "center",
-                                                boxShadow: "none",
-                                                justifyContent: "flex-start",
-                                                position: "relative",
-                                                verticalAlign: "top",
-                                                borderColor: "rgb(224, 222, 222)",
-                                                backgroundColor:
-                                                  "rgb(255, 255, 255)",
-                                                outline: "none",
-                                                cursor: "pointer",
-                                                display: "block",
-                                                maxWidth: "100%",
-                                                borderRadius: "9999px",
-                                                paddingLeft: "1em",
-                                                paddingRight: "2.5em",
-                                                width: "100%",
-                                                fontWeight: 400,
-                                                fontStretch: "normal",
-                                                fontStyle: "normal",
-                                                lineHeight: "normal",
-                                                letterSpacing: "normal",
-                                                color: "rgb(0, 0, 0)",
-                                                fontSize: "16px",
-                                                height: "50px",
-                                                textRendering: "auto",
-                                                paddingTop: "0px",
-                                                paddingBottom: "0px",
-                                              }}
-                                            >
-                                              <option
-                                                value="10"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Married"}
-                                              </option>
-                                              <option
-                                                value="11"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Seperated"}
-                                              </option>
-
-                                              <option
-                                                value="13"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Single"}
-                                              </option>
-                                              <option
-                                                value="14"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Divorced"}
-                                              </option>
-                                              <option
-                                                value="17"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Widower"}
-                                              </option>{" "}
-                                            </select>
+                                             <input
+                                            className="input text is-rounded is-medium has-text-left"
+                                            type="email"
+                                            inputMode="email"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing:
+                                                "antialiased",
+                                              margin: "0px",
+                                              fontFamily: "Roboto, sans-serif",
+                                              border: "1px solid transparent",
+                                              padding:
+                                                "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                              appearance: "none",
+                                              alignItems: "center",
+                                              display: "inline-flex",
+                                              justifyContent: "flex-start",
+                                              position: "relative",
+                                              verticalAlign: "top",
+                                              borderColor: "rgb(224, 222, 222)",
+                                              backgroundColor:
+                                                "rgb(255, 255, 255)",
+                                              boxShadow:
+                                                "rgba(10, 10, 10, 0.05) 0px 0.0625em 0.125em inset",
+                                              maxWidth: "100%",
+                                              width: "100%",
+                                              borderRadius: "9999px",
+                                              paddingLeft:
+                                                "calc(1.125em - 1px)",
+                                              paddingRight:
+                                                "calc(1.125em - 1px)",
+                                              fontWeight: 400,
+                                              fontStretch: "normal",
+                                              fontStyle: "normal",
+                                              lineHeight: "normal",
+                                              letterSpacing: "normal",
+                                              color: "rgb(0, 0, 0)",
+                                              fontSize: "16px",
+                                              height: "50px",
+                                              textAlign: "left",
+                                              paddingTop: "0px",
+                                              paddingBottom: "0px",
+                                            }}
+                                          />
                                           </span>
                                         </div>
                                       </div>
@@ -1750,7 +1665,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           margin: "0px",
@@ -1771,7 +1686,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
-                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            borderColor: "rgba(194, 20, 73, 1)",
                                             boxSizing: "inherit",
                                             WebkitFontSmoothing: "antialiased",
                                             margin: "0px",
@@ -1786,7 +1701,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               margin: "0px",
@@ -1812,7 +1727,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         style={{
                           borderWidth: "0px",
                           borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
+                          borderColor: "rgba(194, 20, 73, 1)",
                           boxSizing: "inherit",
                           WebkitFontSmoothing: "antialiased",
                           padding: "0px 30px 30px",
@@ -1825,7 +1740,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           style={{
                             borderWidth: "0px",
                             borderStyle: "solid",
-                            borderColor: "rgba(229, 231, 235, 1)",
+                            borderColor: "rgba(194, 20, 73, 1)",
                             boxSizing: "inherit",
                             WebkitFontSmoothing: "antialiased",
                             fontStyle: "inherit",
@@ -1837,7 +1752,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             style={{
                               borderWidth: "0px",
                               borderStyle: "solid",
-                              borderColor: "rgba(229, 231, 235, 1)",
+                              borderColor: "rgba(194, 20, 73, 1)",
                               boxSizing: "inherit",
                               WebkitFontSmoothing: "antialiased",
                               marginLeft: "-15px",
@@ -1853,7 +1768,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               style={{
                                 borderWidth: "0px",
                                 borderStyle: "solid",
-                                borderColor: "rgba(229, 231, 235, 1)",
+                                borderColor: "rgba(194, 20, 73, 1)",
                                 boxSizing: "inherit",
                                 WebkitFontSmoothing: "antialiased",
                                 padding: "15px",
@@ -1868,7 +1783,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 style={{
                                   borderWidth: "0px",
                                   borderStyle: "solid",
-                                  borderColor: "rgba(229, 231, 235, 1)",
+                                  borderColor: "rgba(194, 20, 73, 1)",
                                   boxSizing: "inherit",
                                   WebkitFontSmoothing: "antialiased",
                                 }}
@@ -1878,7 +1793,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   style={{
                                     borderWidth: "0px",
                                     borderStyle: "solid",
-                                    borderColor: "rgba(229, 231, 235, 1)",
+                                    borderColor: "rgba(194, 20, 73, 1)",
                                     boxSizing: "inherit",
                                     WebkitFontSmoothing: "antialiased",
                                     paddingTop: "10px",
@@ -1889,7 +1804,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     style={{
                                       borderWidth: "0px",
                                       borderStyle: "solid",
-                                      borderColor: "rgba(229, 231, 235, 1)",
+                                      borderColor: "rgba(194, 20, 73, 1)",
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                     }}
@@ -1901,7 +1816,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       style={{
                                         borderWidth: "0px",
                                         borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        borderColor: "rgba(194, 20, 73, 1)",
                                         boxSizing: "inherit",
                                         WebkitFontSmoothing: "antialiased",
                                       }}
@@ -1912,7 +1827,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           display: "flex",
@@ -1928,7 +1843,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
-                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            borderColor: "rgba(194, 20, 73, 1)",
                                             boxSizing: "inherit",
                                             WebkitFontSmoothing: "antialiased",
                                             fontWeight: 500,
@@ -1941,14 +1856,14 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
                                               fontWeight: "inherit",
                                             }}
                                           >
-                                            What is your marital regime?
+                                            What is your monthly saving?
                                           </span>
 
                                           <span
@@ -1957,7 +1872,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
@@ -1974,7 +1889,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           marginTop: "1rem",
@@ -1985,7 +1900,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
-                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            borderColor: "rgba(194, 20, 73, 1)",
                                             WebkitFontSmoothing: "antialiased",
                                             boxSizing: "border-box",
                                             clear: "both",
@@ -2001,7 +1916,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               fontStyle: "inherit",
@@ -2015,120 +1930,53 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               height: "auto",
                                             }}
                                           >
-                                            <select
-                                              id="select_situation_famille"
-                                              style={{
-                                                borderWidth: "0px",
-                                                borderStyle: "solid",
-                                                boxSizing: "inherit",
-                                                WebkitFontSmoothing:
-                                                  "antialiased",
-                                                textTransform: "none",
-                                                margin: "0px",
-                                                fontFamily: "Roboto, sans-serif",
-                                                border: "1px solid transparent",
-                                                padding:
-                                                  "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                appearance: "none",
-                                                alignItems: "center",
-                                                boxShadow: "none",
-                                                justifyContent: "flex-start",
-                                                position: "relative",
-                                                verticalAlign: "top",
-                                                borderColor: "rgb(224, 222, 222)",
-                                                backgroundColor:
-                                                  "rgb(255, 255, 255)",
-                                                outline: "none",
-                                                cursor: "pointer",
-                                                display: "block",
-                                                maxWidth: "100%",
-                                                borderRadius: "9999px",
-                                                paddingLeft: "1em",
-                                                paddingRight: "2.5em",
-                                                width: "100%",
-                                                fontWeight: 400,
-                                                fontStretch: "normal",
-                                                fontStyle: "normal",
-                                                lineHeight: "normal",
-                                                letterSpacing: "normal",
-                                                color: "rgb(0, 0, 0)",
-                                                fontSize: "16px",
-                                                height: "50px",
-                                                textRendering: "auto",
-                                                paddingTop: "0px",
-                                                paddingBottom: "0px",
-                                              }}
-                                            >
-
-                                              <option
-                                                value="13"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Community reduced to acquests"}
-                                              </option>
-                                              <option
-                                                value="14"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Separation of property"}
-                                              </option>
-                                              <option
-                                                value="15"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Universal community"}
-                                              </option>
-                                              <option
-                                                value="17"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Participation in acquisitions"}
-                                              </option>{" "}
-                                            </select>
+                                            <input
+                                            className="input text is-rounded is-medium has-text-left"
+                                            type="text"
+                                            maxLength={255}
+                                            inputMode="text"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing:
+                                                "antialiased",
+                                              margin: "0px",
+                                              fontFamily: "Roboto, sans-serif",
+                                              border: "1px solid transparent",
+                                              padding:
+                                                "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                              appearance: "none",
+                                              alignItems: "center",
+                                              display: "inline-flex",
+                                              justifyContent: "flex-start",
+                                              position: "relative",
+                                              verticalAlign: "top",
+                                              borderColor: "rgb(224, 222, 222)",
+                                              backgroundColor:
+                                                "rgb(255, 255, 255)",
+                                              boxShadow:
+                                                "rgba(10, 10, 10, 0.05) 0px 0.0625em 0.125em inset",
+                                              maxWidth: "100%",
+                                              width: "100%",
+                                              borderRadius: "9999px",
+                                              paddingLeft:
+                                                "calc(1.125em - 1px)",
+                                              paddingRight:
+                                                "calc(1.125em - 1px)",
+                                              fontWeight: 400,
+                                              fontStretch: "normal",
+                                              fontStyle: "normal",
+                                              lineHeight: "normal",
+                                              letterSpacing: "normal",
+                                              color: "rgb(0, 0, 0)",
+                                              fontSize: "16px",
+                                              height: "50px",
+                                              textAlign: "left",
+                                              paddingTop: "0px",
+                                              paddingBottom: "0px",
+                                            }}
+                                          />
                                           </span>
                                         </div>
                                       </div>
@@ -2137,7 +1985,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          borderColor: "rgba(194, 20, 73, 1)",
                                           boxSizing: "inherit",
                                           WebkitFontSmoothing: "antialiased",
                                           margin: "0px",
@@ -2158,7 +2006,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           style={{
                                             borderWidth: "0px",
                                             borderStyle: "solid",
-                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            borderColor: "rgba(194, 20, 73, 1)",
                                             boxSizing: "inherit",
                                             WebkitFontSmoothing: "antialiased",
                                             margin: "0px",
@@ -2173,7 +2021,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               borderWidth: "0px",
                                               borderStyle: "solid",
                                               borderColor:
-                                                "rgba(229, 231, 235, 1)",
+                                                "rgba(194, 20, 73, 1)",
                                               boxSizing: "inherit",
                                               WebkitFontSmoothing: "antialiased",
                                               margin: "0px",
@@ -2200,7 +2048,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                   style={{
                     borderWidth: "0px",
                     borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
+                    borderColor: "rgba(194, 20, 73, 1)",
                     boxSizing: "inherit",
                     WebkitFontSmoothing: "antialiased",
                     marginTop: "1rem",
@@ -2215,7 +2063,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
+                      borderColor: "rgba(194, 20, 73, 1)",
                       boxSizing: "inherit",
                       WebkitFontSmoothing: "antialiased",
                       appearance: "button",
@@ -2243,7 +2091,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       backgroundColor: "rgb(255, 255, 255)",
                       minWidth: "200px",
                       boxShadow:
-                        "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
+                        "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #C21449",
                     }}
                   >
                     {" "}
@@ -2263,37 +2111,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     >
                       {"Previous"}
                     </span>{" "}
-                    <svg
-                      className="pld-ml-3 pld-rotate-180"
-                      height="12"
-                      width="10"
-                      viewBox="0 0 8.9 11.3"
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        display: "block",
-                        verticalAlign: "middle",
-                        pointerEvents: "none",
-                        marginLeft: "0.75rem",
-                        transform:
-                          "translateX(0) translateY(0) rotate(180deg) skewX(0) skewY(0) scaleX(1) scaleY(1)",
-                      }}
-                    >
-                      <path
-                        d="M0 5.7V0l4.4 2.8 4.5 2.9-4.5 2.8L0 11.3V5.7z"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                        }}
-                      />
-                    </svg>
+                  
                   </button>{" "}
                   <button
                     onClick={onNextClick}
@@ -2302,7 +2120,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
+                      borderColor: "rgba(194, 20, 73, 1)",
                       boxSizing: "inherit",
                       WebkitFontSmoothing: "antialiased",
                       appearance: "button",
@@ -2326,47 +2144,19 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       borderRadius: "40px",
                       padding: "0px 40px",
                       height: "60px",
-                      color: "rgba(0,0,0,0.7)",
-                      backgroundColor: "#ffd100",
+                      color: "white",
+                      backgroundColor: "#C21449",
                       minWidth: "200px",
                       boxShadow:
-                        "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 0px #ffd100",
+                        "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 0px #C21449",
                     }}
                   >
-                    <svg
-                      className="pld-mr-3"
-                      height="12"
-                      width="10"
-                      viewBox="0 0 8.9 11.3"
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
-                        boxSizing: "inherit",
-                        WebkitFontSmoothing: "antialiased",
-                        display: "block",
-                        verticalAlign: "middle",
-                        pointerEvents: "none",
-                        marginRight: "0.75rem",
-                      }}
-                    >
-                      <path
-                        d="M0 5.7V0l4.4 2.8 4.5 2.9-4.5 2.8L0 11.3V5.7z"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                        }}
-                      />
-                    </svg>{" "}
+                  {" "}
                     <span
                       style={{
                         borderWidth: "0px",
                         borderStyle: "solid",
-                        borderColor: "rgba(229, 231, 235, 1)",
+                        borderColor: "rgba(194, 20, 73, 1)",
                         boxSizing: "inherit",
                         WebkitFontSmoothing: "antialiased",
                         fontStyle: "inherit",
@@ -2391,7 +2181,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
 html {
   border-width: 0px;
   border-style: solid;
-  border-color: rgba(229, 231, 235, 1);
+  border-color: rgba(194, 20, 73, 1);
   tab-size: 4;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.5;
@@ -2411,7 +2201,7 @@ html {
 body {
   border-width: 0px;
   border-style: solid;
-  border-color: rgba(229, 231, 235, 1);
+  border-color: rgba(194, 20, 73, 1);
   box-sizing: inherit;
   -webkit-font-smoothing: antialiased;
   margin: 0px;

@@ -1,5 +1,7 @@
 import React, { MouseEventHandler } from "react";
 import Breadcrumbs from './components/Breadcrumbs';
+import Performance from './components/Performance';
+
 
 export default function Component({ onNextClick }: { onNextClick: MouseEventHandler<HTMLButtonElement> }) {
   return (
@@ -87,7 +89,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     textAlign: "center",
                     marginBottom: "28px",
                     letterSpacing: "normal",
-                    color: "rgb(27, 67, 172)",
+                    color: "black",
                   }}
                 >
                     Your investor profile
@@ -186,7 +188,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 margin: "0px",
                                 padding: "0px",
                                 letterSpacing: "normal",
-                                color: "rgb(27, 67, 172)",
+                                color: "black",
                                 fontStretch: "normal",
                                 fontStyle: "normal",
                                 marginTop: "0px",
@@ -236,7 +238,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   height: "30px",
                                   transform: "rotate(180deg)",
                                   transformOrigin: "center center",
-                                  color: "rgb(27, 67, 172)",
+                                  color: "black",
                                 }}
                               >
                                 <path
@@ -677,7 +679,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                       "calc(10px * calc(1 - 0))",
                                                     marginBottom:
                                                       "calc(10px * 0)",
-                                                    color: "rgb(27, 67, 172)",
+                                                    color: "black",
                                                     textTransform: "uppercase",
                                                     fontWeight: 700,
                                                   }}
@@ -781,9 +783,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                 "rgb(255, 255, 255)",
                                               border:
                                                 "2px solid rgb(122, 122, 122)",
-                                              borderColor: "rgb(27, 67, 172)",
+                                              borderColor: "black",
                                               borderWidth: "3px",
-                                              color: "rgb(27, 67, 172)",
+                                              color: "black",
                                             }}
                                           >
                                             {" "}
@@ -856,7 +858,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                   position: "relative",
                                                   cursor: "pointer",
                                                   borderColor:
-                                                    "rgb(27, 67, 172)",
+                                                    "black",
                                                   border:
                                                     "2px solid rgb(10, 10, 10)",
                                                   width: "20px",
@@ -945,7 +947,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                       "calc(10px * calc(1 - 0))",
                                                     marginBottom:
                                                       "calc(10px * 0)",
-                                                    color: "rgb(27, 67, 172)",
+                                                    color: "black",
                                                     textTransform: "uppercase",
                                                     fontWeight: 700,
                                                   }}
@@ -1065,6 +1067,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       </ul>
                                     </p>
                                   </div>
+                                    {" "}
+                                    <Performance />
+                                  
                                 </div>
                               </div>
                             </div>
@@ -1196,7 +1201,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 margin: "0px",
                                 padding: "0px",
                                 letterSpacing: "normal",
-                                color: "rgb(27, 67, 172)",
+                                color: "black",
                                 fontStretch: "normal",
                                 fontStyle: "normal",
                                 marginTop: "0px",
@@ -1245,7 +1250,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   height: "30px",
                                   transform: "rotate(180deg)",
                                   transformOrigin: "center center",
-                                  color: "rgb(27, 67, 172)",
+                                  color: "black",
                                 }}
                               >
                                 <path
@@ -1661,7 +1666,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       boxSizing: "inherit",
                                       WebkitFontSmoothing: "antialiased",
                                       marginBottom: "1rem",
-                                      color: "rgb(27, 67, 172)",
+                                      color: "black",
                                     }}
                                   >
                                     Minimum required: 500 €
@@ -2596,7 +2601,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontStyle: "inherit",
                                           fontWeight: "inherit",
                                           display: "block",
-                                          color: "rgb(27, 67, 172)",
+                                          color: "black",
                                         }}
                                       >
                                         Minimum required: 50 €
@@ -2660,7 +2665,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             border: "none",
                             borderRadius: "40px",
                             backgroundColor: "rgb(194, 20, 73)",
-                            color: "rgb(0, 0, 0)",
+                            color: "white",
                             textTransform: "uppercase",
                             fontWeight: 500,
                             minWidth: "150px",
@@ -2724,7 +2729,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         backgroundColor: "rgb(255, 255, 255)",
                         minWidth: "200px",
                         boxShadow:
-                          "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #ffd100",
+                          "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 1px #C21449",
                       }}
                     >
                       {" "}
