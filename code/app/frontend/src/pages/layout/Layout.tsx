@@ -6,7 +6,7 @@ const Layout = () => {
     return (
         <div className={styles.layout}>
             <div><Outlet /></div>
-            <div><Chat /></div>
+            <div className="chat"><Chat /></div>
         </div>
     );
 };
