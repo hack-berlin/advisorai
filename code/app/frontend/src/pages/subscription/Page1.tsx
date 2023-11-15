@@ -103,7 +103,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       color: "rgb(27, 67, 172)",
                     }}
                   >
-                    Vos coordonnées
+                    Your contact details
                   </h1>{" "}
                   <div
                     style={{
@@ -378,7 +378,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontWeight: "inherit",
                                         }}
                                       >
-                                        Quel est votre nom de famille ?
+                                        What is your last name ?
                                       </span>
 
                                       <span
@@ -657,7 +657,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontWeight: "inherit",
                                         }}
                                       >
-                                        Quel est votre prénom ?
+                                        What is your first name ?
                                       </span>
 
                                       <span
@@ -936,7 +936,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontWeight: "inherit",
                                         }}
                                       >
-                                        Quelle est votre adresse email ?
+                                        What is your email address ?
                                       </span>
 
                                       <span
@@ -1215,7 +1215,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontWeight: "inherit",
                                         }}
                                       >
-                                        Quelle est votre date de naissance ?
+                                        What is your birthday ?
                                       </span>
 
                                       <span
@@ -1544,7 +1544,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               fontWeight: "inherit",
                                             }}
                                           >
-                                            Quelle est votre situation familiale ?
+                                            What is your marital status?
                                           </span>
 
                                           <span
@@ -1670,7 +1670,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                   color: "rgb(74, 74, 74)",
                                                 }}
                                               >
-                                                {"Marié"}
+                                                {"Married"}
                                               </option>
                                               <option
                                                 value="11"
@@ -1687,25 +1687,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                   color: "rgb(74, 74, 74)",
                                                 }}
                                               >
-                                                {"Séparé"}
+                                                {"Seperated"}
                                               </option>
-                                              <option
-                                                value="12"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Concubin"}
-                                              </option>
+
                                               <option
                                                 value="13"
                                                 style={{
@@ -1721,7 +1705,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                   color: "rgb(74, 74, 74)",
                                                 }}
                                               >
-                                                {"Célibataire"}
+                                                {"Single"}
                                               </option>
                                               <option
                                                 value="14"
@@ -1738,24 +1722,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                   color: "rgb(74, 74, 74)",
                                                 }}
                                               >
-                                                {"Divorcé"}
-                                              </option>
-                                              <option
-                                                value="15"
-                                                style={{
-                                                  borderWidth: "0px",
-                                                  borderStyle: "solid",
-                                                  borderColor:
-                                                    "rgba(229, 231, 235, 1)",
-                                                  boxSizing: "inherit",
-                                                  WebkitFontSmoothing:
-                                                    "antialiased",
-                                                  padding:
-                                                    "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                                  color: "rgb(74, 74, 74)",
-                                                }}
-                                              >
-                                                {"Pacsé"}
+                                                {"Divorced"}
                                               </option>
                                               <option
                                                 value="17"
@@ -1772,7 +1739,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                   color: "rgb(74, 74, 74)",
                                                 }}
                                               >
-                                                {"Veuf"}
+                                                {"Widower"}
                                               </option>{" "}
                                             </select>
                                           </span>
@@ -2244,7 +2211,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                 >
                   <button
                     className="pld-m-2 btn_1P7x4 block_1Jg7s outlined_3xSXE shift_right_2U_ar yellow_sJHfv"
-                    aria-label="Précédent"
+                    aria-label="Previous"
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
@@ -2294,7 +2261,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
                       }}
                     >
-                      {"Précédent"}
+                      {"Previous"}
                     </span>{" "}
                     <svg
                       className="pld-ml-3 pld-rotate-180"
@@ -2331,7 +2298,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                   <button
                     onClick={onNextClick}
                     className="pld-m-2 btn_1P7x4 block_1Jg7s filled_FpChn shift_left_22ha8 yellow_sJHfv"
-                    aria-label="Suivant"
+                    aria-label="Next"
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
@@ -2409,7 +2376,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                           "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
                       }}
                     >
-                      {"Suivant"}
+                      {"Next"}
                     </span>{" "}
                   </button>
                 </div>{" "}

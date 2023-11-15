@@ -90,7 +90,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     color: "rgb(27, 67, 172)",
                   }}
                 >
-                  Votre profil investisseur
+                    Your investor profile
                 </h1>{" "}
                 <div
                   style={{
@@ -196,7 +196,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 lineHeight: "34px",
                               }}
                             >
-                              Vos objectifs financiers
+                                Your financial goals
                             </h2>{" "}
                             <a
                               className="card-header-action ml-auto"
@@ -409,8 +409,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             fontWeight: "inherit",
                                           }}
                                         >
-                                          Pour quel type de gestion désirez-vous
-                                          opter ?
+                                          What type of management do you want to choose?
                                         </span>
 
                                         <span
@@ -683,7 +682,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                  Gestion déléguée
+                                                    Delegated management
                                                 </div>{" "}
                                                 <div
                                                   className="pld-text-sm md:pld-text-[16px] has-text-grey-darker has-text-weight-bold"
@@ -705,8 +704,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                  Laisser des experts choisir
-                                                  les supports de mon contrat
+                                                    Allowing experts to choose the investment options for my policy
                                                 </div>
                                               </div>
                                             </div>
@@ -952,7 +950,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                  Gestion libre{" "}
+                                                    Self-management{" "}
                                                   <span
                                                     className="has-text-success pld-text-[10px]"
                                                     style={{
@@ -970,9 +968,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                         "rgb(72, 199, 142)",
                                                     }}
                                                   >
-                                                    ou
+                                                    or
                                                   </span>{" "}
-                                                  mixte
+                                                  mixed
                                                 </div>{" "}
                                                 <div
                                                   className="pld-text-sm md:pld-text-[16px] has-text-grey-darker has-text-weight-bold"
@@ -994,9 +992,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                  Choisir moi-même les supports
-                                                  d’investissement de mon
-                                                  contrat
+                                                    To choose my own investment options for my policy
                                                 </div>
                                               </div>
                                             </div>
@@ -1210,7 +1206,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 lineHeight: "34px",
                               }}
                             >
-                              Votre investissement
+                                Your investment
                             </h2>{" "}
                             <a
                               className="card-header-action ml-auto"
@@ -1425,26 +1421,25 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             fontWeight: "inherit",
                                           }}
                                         >
-                                          Quel montant souhaitez-vous investir
-                                          pour votre versement{" "}
-                                          <span
-                                            className="has-text-success"
-                                            style={{
-                                              borderWidth: "0px",
-                                              borderStyle: "solid",
-                                              borderColor:
-                                                "rgba(229, 231, 235, 1)",
-                                              boxSizing: "inherit",
-                                              WebkitFontSmoothing:
-                                                "antialiased",
-                                              fontStyle: "inherit",
-                                              fontWeight: "inherit",
-                                              color: "rgb(72, 199, 142)",
-                                            }}
-                                          >
-                                            INITIAL
+                                          What amount would you like to invest for your {" "}
+                                            <span
+                                                className="has-text-success"
+                                                style={{
+                                                    borderWidth: "0px",
+                                                    borderStyle: "solid",
+                                                    borderColor:
+                                                        "rgba(229, 231, 235, 1)",
+                                                    boxSizing: "inherit",
+                                                    WebkitFontSmoothing:
+                                                        "antialiased",
+                                                    fontStyle: "inherit",
+                                                    fontWeight: "inherit",
+                                                    color: "rgb(72, 199, 142)",
+                                                }}
+                                            >
+                                            INITIAL {" "}
                                           </span>
-                                          ?
+                                             contribution?
                                         </span>
 
                                         <span
@@ -1669,7 +1664,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       color: "rgb(27, 67, 172)",
                                     }}
                                   >
-                                    Minimum requis: 500 €
+                                    Minimum required: 500 €
                                   </div>
                                 </div>
                               </div>
@@ -1726,25 +1721,26 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       lineHeight: "28px",
                                     }}
                                   >
-                                    {
-                                      "Quel montant souhaitez-vous investir pour vos versements"
-                                    }
-                                    <span
-                                      className="has-text-success is-uppercase"
-                                      style={{
-                                        borderWidth: "0px",
-                                        borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
-                                        boxSizing: "inherit",
-                                        WebkitFontSmoothing: "antialiased",
-                                        fontStyle: "inherit",
-                                        fontWeight: "inherit",
-                                        color: "rgb(72, 199, 142)",
-                                        textTransform: "uppercase",
-                                      }}
-                                    >
-                                      Programmés
-                                    </span>
+                                    What amount would you like to invest for your {" "}
+                                      <span
+                                          className="has-text-success is-uppercase"
+                                          style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor: "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing: "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                              color: "rgb(72, 199, 142)",
+                                              textTransform: "uppercase",
+                                          }}
+                                      >
+                                      Programmed
+                                    </span> {" "}
+                                      contributions
+
+
                                     {"?"}
                                   </label>{" "}
                                   <div
@@ -1800,7 +1796,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontWeight: 500,
                                         }}
                                       >
-                                        Tous les
+                                        All of
                                       </span>{" "}
                                       <div
                                         className="md:pld-min-w-none pld-min-w-[200px]"
@@ -2032,7 +2028,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           fontWeight: 500,
                                         }}
                                       >
-                                        à partir de
+                                        starting from
                                       </span>{" "}
                                       <div
                                         className="pld-min-w-[200px]"
@@ -2168,7 +2164,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin décembre 2023"}
+                                                  {"end of december 2023"}
                                                 </option>
                                                 <option
                                                   value="608"
@@ -2202,7 +2198,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin février 2024"}
+                                                  {"End of february 2024"}
                                                 </option>
                                                 <option
                                                   value="610"
@@ -2219,7 +2215,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin mars 2024"}
+                                                  {"End of mars 2024"}
                                                 </option>
                                                 <option
                                                   value="611"
@@ -2236,7 +2232,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin avril 2024"}
+                                                  {"End of april 2024"}
                                                 </option>
                                                 <option
                                                   value="612"
@@ -2253,7 +2249,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin mai 2024"}
+                                                  {"End of May 2024"}
                                                 </option>
                                                 <option
                                                   value="613"
@@ -2270,7 +2266,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin juin 2024"}
+                                                  {"End of juin 2024"}
                                                 </option>
                                                 <option
                                                   value="614"
@@ -2287,7 +2283,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin juillet 2024"}
+                                                  {"end of july 2024"}
                                                 </option>
                                                 <option
                                                   value="615"
@@ -2304,7 +2300,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin août 2024"}
+                                                  {"End of August 2024"}
                                                 </option>
                                                 <option
                                                   value="616"
@@ -2321,7 +2317,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin septembre 2024"}
+                                                  {"End of september 2024"}
                                                 </option>
                                                 <option
                                                   value="617"
@@ -2338,7 +2334,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin octobre 2024"}
+                                                  {"end of october 2024"}
                                                 </option>
                                                 <option
                                                   value="618"
@@ -2355,7 +2351,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin novembre 2024"}
+                                                  {"End of november 2024"}
                                                 </option>
                                               </select>
                                             </span>
@@ -2603,7 +2599,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           color: "rgb(27, 67, 172)",
                                         }}
                                       >
-                                        Minimum requis: 50 €
+                                        Minimum required: 50 €
                                       </span>
                                     </div>
                                   </div>
@@ -2675,7 +2671,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             marginRight: "auto",
                           }}
                         >
-                          {"Valider"}
+                          {"Validate"}
                         </button>
                       </footer>
                     </div>{" "}
@@ -2696,7 +2692,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                   >
                     <button
                       className="pld-m-2 btn_1P7x4 block_1Jg7s outlined_3xSXE shift_right_2U_ar yellow_sJHfv"
-                      aria-label="Précédent"
+                      aria-label="Previous"
                       style={{
                         borderWidth: "0px",
                         borderStyle: "solid",
@@ -2746,7 +2742,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
                         }}
                       >
-                        {"Précédent"}
+                        {"Previous"}
                       </span>{" "}
                       <svg
                         className="pld-ml-3 pld-rotate-180"
