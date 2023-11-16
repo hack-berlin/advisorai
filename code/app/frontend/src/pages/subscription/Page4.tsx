@@ -529,7 +529,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               border: "none",
                               borderRadius: "40px",
                               backgroundColor: "rgb(194, 20, 73)",
-                              color: "rgb(0, 0, 0)",
+                              color: "white",
                               textTransform: "uppercase",
                               fontWeight: 500,
                               minWidth: "150px",

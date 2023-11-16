@@ -96,7 +96,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       textAlign: "center",
                       marginBottom: "28px",
                       letterSpacing: "normal",
-                      color: "rgb(194, 20, 73)",
+                      color: "black",
                     }}
                   >
                     Your product choice
@@ -174,7 +174,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             margin: "0px",
                             padding: "0px",
                             letterSpacing: "normal",
-                            color: "rgb(194, 20, 73)",
+                            color: "black",
                             fontStretch: "normal",
                             fontStyle: "normal",
                             marginTop: "0px",
@@ -602,7 +602,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             fontSize: "16px",
                                           }}
                                         >
-                                          Product 2
+                                          Maximo
                                         </div>{" "}
                                       </div>
                                     </button>{" "}
@@ -785,7 +785,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             fontSize: "16px",
                                           }}
                                         >
-                                          Product 3
+                                          SBU
                                         </div>{" "}
                                       </div>
                                     </button>{" "}
@@ -894,7 +894,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               border: "none",
                               borderRadius: "40px",
                               backgroundColor: "rgb(194, 20, 73)",
-                              color: "rgb(0, 0, 0)",
+                              color: "white",
                               textTransform: "uppercase",
                               fontWeight: 500,
                               minWidth: "150px",
@@ -905,7 +905,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                               marginRight: "auto",
                             }}
                           >
-                            {"Valider"}
+                            {"Validate"}
                           </button>
                         </footer>
                       </div>{" "}

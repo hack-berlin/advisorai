@@ -96,7 +96,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                       textAlign: "center",
                       marginBottom: "28px",
                       letterSpacing: "normal",
-                      color: "rgb(194, 20, 73)",
+                      color: "black",
                     }}
                   >
                     Your product choice
@@ -186,7 +186,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             lineHeight: "34px",
                           }}
                         >
-                          Congratulation !
+                          Congratulations  &#129395; !
                         </h2>{" "}
                         <section
                           id="TypeRepartition"
@@ -223,10 +223,8 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                             >
                               {" "}
                             </div>
-                            <div className="thumb-container">
-      <div className="thumb"></div>
-    </div>
-                            <p>Welcom to the Swisslife Family !</p>
+                            
+                            <p>Welcome to the Swisslife Family  &#128525; !</p>
                           </div>{" "}
                         </section>{" "}
                       </div>{" "}
