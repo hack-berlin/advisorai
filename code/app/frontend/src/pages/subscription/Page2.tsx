@@ -7,8 +7,8 @@ import { AppContext } from "../context";
 export default function Component({ onPrevClick, onNextClick, onTips }: { onPrevClick: MouseEventHandler<HTMLButtonElement>, onNextClick: MouseEventHandler<HTMLButtonElement>, onTips: (tip: string) => void }) {
   const { state } = useContext<any>(AppContext);
 
-  function clickTips(): void {
-    onTips('can you explain me difference between management delegated management and mixed management ?')
+  function clickTips(tip : string): void {
+    onTips(tip)
   }
 
   return (
@@ -439,7 +439,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                       <span
                                         className="mx-10 is-flex-shrink-0"
                                         id="management-type-hint"
-                                        onClick={clickTips}
+                                        onClick={() => clickTips('can you explain me difference between management delegated management and mixed management ?')}
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
@@ -527,6 +527,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                           <button
                                             className="button is-radio-checkbox is-size-6 w-full"
                                             type="button"
+                                            onClick={() => clickTips('can you explain me the delegated management ?')}
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
@@ -794,6 +795,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                           <button
                                             className="button is-radio-checkbox is-size-6 is-active has-text-weight-medium !pld-shadow-md w-full"
                                             type="button"
+                                            onClick={() => clickTips('can you explain me the mixed management ?')}
                                             style={{
                                               borderStyle: "solid",
                                               boxSizing: "inherit",
