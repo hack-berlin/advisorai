@@ -462,6 +462,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                                             type="text"
                                             maxLength={255}
                                             inputMode="text"
+                                            value="Dupont"
                                             style={{
                                               borderWidth: "0px",
                                               borderStyle: "solid",
@@ -741,6 +742,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                                             type="text"
                                             maxLength={26}
                                             inputMode="text"
+                                            value="Jean"
                                             style={{
                                               borderWidth: "0px",
                                               borderStyle: "solid",
@@ -1020,6 +1022,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                                             className="input text is-rounded is-medium has-text-left"
                                             type="email"
                                             inputMode="email"
+                                            value="jean.dupont@gmail.com"
                                             style={{
                                               borderWidth: "0px",
                                               borderStyle: "solid",
@@ -1299,6 +1302,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                                             type="text"
                                             placeholder="JJ/MM/AAAA"
                                             inputMode="numeric"
+                                            value="12/08/1990"
                                             style={{
                                               borderWidth: "0px",
                                               borderStyle: "solid",
@@ -1615,6 +1619,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                                               className="input text is-rounded is-medium has-text-left"
                                               type="email"
                                               inputMode="email"
+                                              value="49000"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -1863,7 +1868,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                                               fontWeight: "inherit",
                                             }}
                                           >
-                                            What is your monthly saving capicity?
+                                            What is your monthly saving capacity?
                                           </span>
 
                                           <span

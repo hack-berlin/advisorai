@@ -15,7 +15,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
           padding: "3rem",
         }}
       >
-        <Breadcrumbs currentStep={3}></Breadcrumbs>
+        <Breadcrumbs currentStep={4}></Breadcrumbs>
 
         <div
           className="container"
@@ -331,7 +331,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                         </svg>
                       </button>{" "}
                     </div>{" "}
-                    
+
                   </div>
                 </div>{" "}
               </div>
@@ -370,7 +370,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
               maxWidth: "1344px",
             }}
           >
-           
+
             <div
               className="footer-bottom"
               style={{

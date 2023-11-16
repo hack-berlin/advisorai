@@ -7,7 +7,7 @@ import { AppContext } from "../context";
 export default function Component({ onPrevClick, onNextClick, onTips }: { onPrevClick: MouseEventHandler<HTMLButtonElement>, onNextClick: MouseEventHandler<HTMLButtonElement>, onTips: (tip: string) => void }) {
   const { state } = useContext<any>(AppContext);
 
-  function clickTips(tip : string): void {
+  function clickTips(tip: string): void {
     onTips(tip)
   }
 
@@ -1568,6 +1568,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                               className="input is-rounded is-expanded is-medium md:!pld-w-[220px] !pld-w-[240px]"
                                               type="text"
                                               inputMode="decimal"
+                                              value="1000"
                                               style={{
                                                 borderWidth: "0px",
                                                 borderStyle: "solid",
@@ -1906,6 +1907,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                               }}
                                             >
                                               <select
+                                                value="165"
                                                 style={{
                                                   borderWidth: "0px",
                                                   borderStyle: "solid",
@@ -2138,6 +2140,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                               }}
                                             >
                                               <select
+                                                value="608"
                                                 style={{
                                                   borderWidth: "0px",
                                                   borderStyle: "solid",
@@ -2496,6 +2499,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                   className="input is-rounded is-expanded is-medium !pld-w-[220px]"
                                                   type="text"
                                                   inputMode="decimal"
+                                                  value="200"
                                                   style={{
                                                     borderWidth: "0px",
                                                     borderStyle: "solid",
