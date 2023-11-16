@@ -155,9 +155,16 @@ const Chat = () => {
                                 aria-hidden="true"
                             />
                             <h1 className={styles.chatEmptyStateTitle}>How may I help you</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Feel free to ask questions</h2>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Hello! I am SwissMate, just let you know, <br/>you‘re chatting with a digital assistant.</h2>
+                            
                         </Stack>
                     ) : (
+                        <Stack style={{ width: "100%", height: "100%" }} >
+                        <img style={{ margin: "auto" }} 
+                                src={ChatBot}
+                                className={styles.chatIcon}
+                                aria-hidden="true"
+                            />
                         <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }}>
                             {answers.map((answer, index) => (
                                 <>
@@ -196,6 +203,7 @@ const Chat = () => {
                             )}
                             <div ref={chatMessageStreamEnd} />
                         </div>
+                        </Stack>
                     )}
 
                     <Stack horizontal className={styles.chatInput}>
