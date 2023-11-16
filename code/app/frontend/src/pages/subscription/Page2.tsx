@@ -1978,7 +1978,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Mois"}
+                                                  {"Month"}
                                                 </option>
                                                 <option
                                                   value="166"
@@ -1995,7 +1995,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Trimestres"}
+                                                  {"Quarters"}
                                                 </option>
                                                 <option
                                                   value="167"
@@ -2012,7 +2012,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Semestres"}
+                                                  {"Semesters"}
                                                 </option>
                                                 <option
                                                   value="168"
@@ -2029,7 +2029,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Ans"}
+                                                  {"Years"}
                                                 </option>
                                               </select>
                                             </span>
@@ -2210,7 +2210,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"end of december 2023"}
+                                                  {"End of december 2023"}
                                                 </option>
                                                 <option
                                                   value="608"
@@ -2227,7 +2227,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"Fin janvier 2024"}
+                                                  {"End of January 2024"}
                                                 </option>
                                                 <option
                                                   value="609"
@@ -2329,7 +2329,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"end of july 2024"}
+                                                  {"End of july 2024"}
                                                 </option>
                                                 <option
                                                   value="615"
@@ -2380,7 +2380,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                                     color: "rgb(74, 74, 74)",
                                                   }}
                                                 >
-                                                  {"end of october 2024"}
+                                                  {"End of october 2024"}
                                                 </option>
                                                 <option
                                                   value="618"

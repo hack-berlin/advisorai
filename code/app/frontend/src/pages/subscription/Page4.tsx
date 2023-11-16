@@ -561,7 +561,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                     >
                       <button
                         className="pld-m-2 btn_1P7x4 block_1Jg7s outlined_3xSXE shift_right_2U_ar yellow_sJHfv"
-                        aria-label="Précédent"
+                        aria-label="Previous"
                         onClick={onPrevClick}
                         style={{
                           borderWidth: "0px",
@@ -612,7 +612,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                               "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
                           }}
                         >
-                          {"Précédent"}
+                          {"Previous"}
                         </span>{" "}
                         <svg
                           className="pld-ml-3 pld-rotate-180"
