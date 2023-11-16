@@ -92,7 +92,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     color: "black",
                   }}
                 >
-                    Your investor profile
+                  Your investor profile
                 </h1>{" "}
                 <div
                   style={{
@@ -198,7 +198,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 lineHeight: "34px",
                               }}
                             >
-                                Your financial goals
+                              Your financial goals
                             </h2>{" "}
                             <a
                               className="card-header-action ml-auto"
@@ -499,7 +499,6 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               position: "relative",
                                               verticalAlign: "top",
                                               userSelect: "none",
-                                              borderWidth: "1px",
                                               cursor: "pointer",
                                               justifyContent: "center",
                                               textAlign: "center",
@@ -509,15 +508,18 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               height: "auto",
                                               width: "100%",
                                               background: "none",
-                                              borderColor: "transparent",
                                               textDecoration: "none",
                                               backgroundImage: "none",
                                               fontSize: "1rem",
                                               backgroundColor:
                                                 "rgb(255, 255, 255)",
+
                                               border:
                                                 "2px solid rgb(122, 122, 122)",
-                                              color: "rgb(74, 74, 74)",
+                                              borderColor: "black",
+                                              borderWidth: "3px",
+                                              color: "black",
+
                                             }}
                                           >
                                             {" "}
@@ -684,7 +686,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                    Delegated management
+                                                  Delegated management
                                                 </div>{" "}
                                                 <div
                                                   className="pld-text-sm md:pld-text-[16px] has-text-grey-darker has-text-weight-bold"
@@ -706,7 +708,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                    Allowing experts to choose the investment options for my policy
+                                                  Allowing experts to choose the investment options for my policy
                                                 </div>
                                               </div>
                                             </div>
@@ -781,11 +783,6 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               fontWeight: 500,
                                               backgroundColor:
                                                 "rgb(255, 255, 255)",
-                                              border:
-                                                "2px solid rgb(122, 122, 122)",
-                                              borderColor: "black",
-                                              borderWidth: "3px",
-                                              color: "black",
                                             }}
                                           >
                                             {" "}
@@ -952,7 +949,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                    Self-management{" "}
+                                                  Self-management{" "}
                                                   <span
                                                     className="has-text-success pld-text-[10px]"
                                                     style={{
@@ -994,7 +991,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                                     fontWeight: 700,
                                                   }}
                                                 >
-                                                    To choose my own investment options for my policy
+                                                  To choose my own investment options for my policy
                                                 </div>
                                               </div>
                                             </div>
@@ -1067,9 +1064,9 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                       </ul>
                                     </p>
                                   </div>
-                                    {" "}
-                                    <Performance />
-                                  
+                                  {" "}
+                                  <Performance />
+
                                 </div>
                               </div>
                             </div>
@@ -1211,7 +1208,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                 lineHeight: "34px",
                               }}
                             >
-                                Your investment
+                              Your investment
                             </h2>{" "}
                             <a
                               className="card-header-action ml-auto"
@@ -1427,24 +1424,24 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                           }}
                                         >
                                           What amount would you like to invest for your {" "}
-                                            <span
-                                                className="has-text-success"
-                                                style={{
-                                                    borderWidth: "0px",
-                                                    borderStyle: "solid",
-                                                    borderColor:
-                                                        "rgba(229, 231, 235, 1)",
-                                                    boxSizing: "inherit",
-                                                    WebkitFontSmoothing:
-                                                        "antialiased",
-                                                    fontStyle: "inherit",
-                                                    fontWeight: "inherit",
-                                                    color: "rgb(72, 199, 142)",
-                                                }}
-                                            >
+                                          <span
+                                            className="has-text-success"
+                                            style={{
+                                              borderWidth: "0px",
+                                              borderStyle: "solid",
+                                              borderColor:
+                                                "rgba(229, 231, 235, 1)",
+                                              boxSizing: "inherit",
+                                              WebkitFontSmoothing:
+                                                "antialiased",
+                                              fontStyle: "inherit",
+                                              fontWeight: "inherit",
+                                              color: "rgb(72, 199, 142)",
+                                            }}
+                                          >
                                             INITIAL {" "}
                                           </span>
-                                             contribution?
+                                          contribution?
                                         </span>
 
                                         <span
@@ -1727,23 +1724,23 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                     }}
                                   >
                                     What amount would you like to invest for your {" "}
-                                      <span
-                                          className="has-text-success is-uppercase"
-                                          style={{
-                                              borderWidth: "0px",
-                                              borderStyle: "solid",
-                                              borderColor: "rgba(229, 231, 235, 1)",
-                                              boxSizing: "inherit",
-                                              WebkitFontSmoothing: "antialiased",
-                                              fontStyle: "inherit",
-                                              fontWeight: "inherit",
-                                              color: "rgb(72, 199, 142)",
-                                              textTransform: "uppercase",
-                                          }}
-                                      >
+                                    <span
+                                      className="has-text-success is-uppercase"
+                                      style={{
+                                        borderWidth: "0px",
+                                        borderStyle: "solid",
+                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        boxSizing: "inherit",
+                                        WebkitFontSmoothing: "antialiased",
+                                        fontStyle: "inherit",
+                                        fontWeight: "inherit",
+                                        color: "rgb(72, 199, 142)",
+                                        textTransform: "uppercase",
+                                      }}
+                                    >
                                       Programmed
                                     </span> {" "}
-                                      contributions
+                                    contributions
 
 
                                     {"?"}
