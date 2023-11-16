@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect, useContext } from "react";
 import { Stack } from "@fluentui/react";
-import { BroomRegular, DismissRegular, SquareRegular } from "@fluentui/react-icons";
+import { BinRecycle20Regular, BroomRegular, DismissRegular, SquareRegular } from "@fluentui/react-icons";
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from 'remark-gfm'
@@ -30,7 +30,7 @@ const Chat = () => {
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const [showLoadingMessage, setShowLoadingMessage] = useState<boolean>(false);
     const [activeCitation, setActiveCitation] = useState<[content: string, id: string, title: string, filepath: string, url: string, metadata: string]>();
-    const [isCitationPanelOpen, setIsCitationPanelOpen] = useState<boolean>(false);
+    const [isCitationPanelOpen, setIsCitationPanelOpen] = useState<boolean>(true);
     const [answers, setAnswers] = useState<ChatMessage[]>([]);
     const abortFuncs = useRef([] as AbortController[]);
     const [conversationId, setConversationId] = useState<string>(uuidv4());
@@ -206,7 +206,7 @@ const Chat = () => {
                                 <span className={styles.stopGeneratingText} aria-hidden="true">Stop generating</span>
                             </Stack>
                         )}
-                        <BroomRegular
+                        <BinRecycle20Regular
                             className={styles.clearChatBroom}
                             style={{
                                 background: isLoading || answers.length === 0 ? "#BDBDBD" : "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)",
