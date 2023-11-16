@@ -371,67 +371,104 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                   >
                                     {" "}
                                     <label
-                                      className="label"
-                                      style={{
-                                        borderWidth: "0px",
-                                        borderStyle: "solid",
-                                        borderColor: "rgba(229, 231, 235, 1)",
-                                        boxSizing: "inherit",
-                                        WebkitFontSmoothing: "antialiased",
-                                        display: "flex",
-                                        alignItems: "center",
-                                        fontWeight: 500,
-                                        color: "rgb(0, 0, 0)",
-                                        fontSize: "16px",
-                                        marginBottom: "5px",
-                                      }}
-                                    >
-                                      <label
-                                        className="input_label_mqESs"
-                                        style={{
-                                          borderWidth: "0px",
-                                          borderStyle: "solid",
-                                          borderColor: "rgba(229, 231, 235, 1)",
-                                          boxSizing: "inherit",
-                                          WebkitFontSmoothing: "antialiased",
-                                          fontWeight: 500,
-                                          fontSize: "18px",
-                                          lineHeight: "28px",
-                                        }}
-                                      >
-                                        <span
-                                          style={{
-                                            borderWidth: "0px",
-                                            borderStyle: "solid",
-                                            borderColor:
-                                              "rgba(229, 231, 235, 1)",
-                                            boxSizing: "inherit",
-                                            WebkitFontSmoothing: "antialiased",
-                                            fontStyle: "inherit",
-                                            fontWeight: "inherit",
-                                          }}
-                                        >
-                                          What type of management do you want to choose?
-                                        </span>
+                className="label"
+                style={{
+                  borderWidth: "0px",
+                  borderStyle: "solid",
+                  borderColor: "rgba(229, 231, 235, 1)",
+                  boxSizing: "inherit",
+                  WebkitFontSmoothing: "antialiased",
+                  display: "flex",
+                  alignItems: "center",
+                  fontWeight: 500,
+                  color: "rgb(0, 0, 0)",
+                  fontSize: "16px",
+                  marginBottom: "5px",
+                }}
+              >
+                <label
+                  className="input_label_mqESs"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgba(229, 231, 235, 1)",
+                    boxSizing: "inherit",
+                    WebkitFontSmoothing: "antialiased",
+                    fontWeight: 500,
+                    fontSize: "18px",
+                    lineHeight: "28px",
+                  }}
+                >
+                  <span
+                    style={{
+                      borderWidth: "0px",
+                      borderStyle: "solid",
+                      borderColor: "rgba(229, 231, 235, 1)",
+                      boxSizing: "inherit",
+                      WebkitFontSmoothing: "antialiased",
+                      fontStyle: "inherit",
+                      fontWeight: "inherit",
+                    }}
+                  >
+                    What type of management do you want to choose?
+                  </span>
+                   
+                  <span
+                    className="required_1oOjx"
+                    style={{
+                      borderWidth: "0px",
+                      borderStyle: "solid",
+                      borderColor: "rgba(229, 231, 235, 1)",
+                      boxSizing: "inherit",
+                      WebkitFontSmoothing: "antialiased",
+                      fontStyle: "inherit",
+                      fontWeight: "inherit",
+                      color: "rgb(255, 209, 0)",
+                    }}
+                  >
+                    *
+                  </span>
+                </label>{" "}
+                <span
+                  className="mx-10 is-flex-shrink-0"
+                  id="management-type-hint"
+                  data-tip="What is the difference between delegated management ane self-management?"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgba(229, 231, 235, 1)",
+                    boxSizing: "inherit",
+                    WebkitFontSmoothing: "antialiased",
+                    fontStyle: "inherit",
+                    fontWeight: "inherit",
+                    cursor: "pointer",
+                    flexShrink: 0,
+                    marginLeft: "10px",
+                    marginRight: "10px",
+                  }}
+                >
+                  <img
+                    id="iconHelp"
+                    className="is-block"
+                    height={20}
+                    width={20}
+                    aria-expanded="false"
+                    src="https://souscrire.placement-direct.fr/images/help.svg"
+                    style={{
+                      borderWidth: "0px",
+                      borderColor: "rgba(229, 231, 235, 1)",
+                      boxSizing: "inherit",
+                      WebkitFontSmoothing: "antialiased",
+                      borderStyle: "solid",
+                      verticalAlign: "middle",
+                      height: "auto",
+                      maxWidth: "100%",
+                      display: "block",
+                    }}
+                  />
+                </span>
+              </label>{" "}{" "}
 
-                                        <span
-                                          className="required_1oOjx"
-                                          style={{
-                                            borderWidth: "0px",
-                                            borderStyle: "solid",
-                                            borderColor:
-                                              "rgba(229, 231, 235, 1)",
-                                            boxSizing: "inherit",
-                                            WebkitFontSmoothing: "antialiased",
-                                            fontStyle: "inherit",
-                                            fontWeight: "inherit",
-                                            color: "rgb(194, 20, 73)",
-                                          }}
-                                        >
-                                          *
-                                        </span>
-                                      </label>{" "}
-                                    </label>{" "}
                                     <div
                                       className="pld-mt-4"
                                       style={{

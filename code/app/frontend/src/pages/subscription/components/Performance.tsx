@@ -87,7 +87,7 @@ export default function Component() {
                       fontWeight: "inherit",
                     }}
                   >
-                    Quelle performance attendez-vous de votre placement ?
+                    What performance do you expect ?
                   </span>
                    
                   <span
@@ -108,6 +108,8 @@ export default function Component() {
                 </label>{" "}
                 <span
                   className="mx-10 is-flex-shrink-0"
+                  id="performance-hint"
+                  data-tip="What are the types of performances?"
                   style={{
                     borderWidth: "0px",
                     borderStyle: "solid",
@@ -352,7 +354,7 @@ export default function Component() {
                             color: "inherit",
                           }}
                         >
-                          Rendement Faible
+                          Low efficiency
                         </strong>
                         <br
                           style={{
@@ -374,9 +376,9 @@ export default function Component() {
                             color: "inherit",
                           }}
                         >
-                          peu de risque
+                          low risk
                         </strong>{" "}
-                        de perte en capital
+                        of capital loss
                       </div>
                     </button>{" "}
                     <div
@@ -569,7 +571,7 @@ export default function Component() {
                             color: "inherit",
                           }}
                         >
-                          Rendement Moyen
+                          Average efficiency
                         </strong>
                         <br
                           style={{
@@ -591,9 +593,9 @@ export default function Component() {
                             color: "inherit",
                           }}
                         >
-                          risque moyen
+                          average risk
                         </strong>{" "}
-                        de perte en capital
+                        of capital loss
                       </div>
                     </button>{" "}
                     <div
@@ -786,7 +788,7 @@ export default function Component() {
                             color: "inherit",
                           }}
                         >
-                          Rendement Élevé
+                          High efficiency
                         </strong>
                         <br
                           style={{
@@ -808,9 +810,9 @@ export default function Component() {
                             color: "inherit",
                           }}
                         >
-                          risque élevé
+                          high risk
                         </strong>{" "}
-                        de perte en capital
+                        of capital loss
                       </div>
                     </button>{" "}
                     <div
