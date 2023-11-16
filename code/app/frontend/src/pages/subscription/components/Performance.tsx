@@ -89,7 +89,7 @@ export default function Component() {
                   >
                     What performance do you expect ?
                   </span>
-                   
+
                   <span
                     className="required_1oOjx"
                     style={{
@@ -227,7 +227,7 @@ export default function Component() {
                         fontWeight: 500,
                         backgroundColor: "rgb(255, 255, 255)",
                         border: "2px solid rgb(122, 122, 122)",
-                        bordercolor: "black",
+                        borderColor: "black",
                         borderWidth: "3px",
                         color: "black",
                       }}
@@ -294,7 +294,7 @@ export default function Component() {
                             flexShrink: 0,
                             position: "relative",
                             cursor: "pointer",
-                            bordercolor: "black",
+                            borderColor: "black",
                             border: "2px solid rgb(10, 10, 10)",
                             width: "20px",
                             height: "20px",
