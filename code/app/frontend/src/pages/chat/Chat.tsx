@@ -34,7 +34,14 @@ const Chat = () => {
     const [answers, setAnswers] = useState<ChatMessage[]>([]);
     const abortFuncs = useRef([] as AbortController[]);
     const [conversationId, setConversationId] = useState<string>(uuidv4());
-    const { state } = useContext<any>(AppContext);
+    const { state, setState } = useContext<any>(AppContext);
+
+    useEffect(() => {
+        if (state.tip) {
+        makeApiRequest(state.tip);
+        setState({ ...state, tip: '' })
+        }
+    }, [state.tip]);
 
     const makeApiRequest = async (question: string) => {
         lastQuestionRef.current = question;

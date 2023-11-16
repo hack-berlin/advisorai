@@ -1,9 +1,16 @@
-import React, { MouseEventHandler } from "react";
+import React, { MouseEventHandler, useContext } from "react";
 import Breadcrumbs from './components/Breadcrumbs';
 import Performance from './components/Performance';
+import { AppContext } from "../context";
 
 
-export default function Component({ onNextClick }: { onNextClick: MouseEventHandler<HTMLButtonElement> }) {
+export default function Component({ onNextClick, onTips }: { onNextClick: MouseEventHandler<HTMLButtonElement>, onTips: (tip: string) => void }) {
+  const { state } = useContext<any>(AppContext);
+
+  function clickTips(): void {
+    onTips('can you explain me difference between management delegated management and mixed management ?')
+  }
+
   return (
     <>
       <div
@@ -432,7 +439,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                 <span
                   className="mx-10 is-flex-shrink-0"
                   id="management-type-hint"
-                  data-tip="What is the difference between delegated management ane self-management?"
+                  onClick={clickTips}
                   style={{
                     borderWidth: "0px",
                     borderStyle: "solid",

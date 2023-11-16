@@ -40,11 +40,15 @@ function Subscription() {
     }
   }
 
+  const onTips = (tip: string) => {
+    setState({...state, tip: tip})
+  }
+
   switch (page) {
     case 'page1':
       return <Page1 onNextClick={onNextClick} />;
     case 'page2':
-      return <Page2 onNextClick={onNextClick} />;
+      return <Page2 onNextClick={onNextClick} onTips={onTips} />;
     case 'page3':
       return <Page3 onNextClick={onNextClick} />;
     case 'page4':
