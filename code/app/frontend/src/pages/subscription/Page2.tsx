@@ -454,21 +454,21 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                           marginRight: "10px",
                                         }}
                                       >
-                                        <img
+                                        <span
                                           id="iconHelp"
                                           className="is-block"
-                                          height={20}
-                                          width={20}
                                           aria-expanded="false"
-                                          src="https://souscrire.placement-direct.fr/images/help.svg"
+
                                           style={{
+                                            width: "20px",
+                                            height: "20px",
                                             borderWidth: "0px",
                                             borderColor: "rgba(229, 231, 235, 1)",
                                             boxSizing: "inherit",
                                             WebkitFontSmoothing: "antialiased",
                                             borderStyle: "solid",
                                             verticalAlign: "middle",
-                                            height: "auto",
+
                                             maxWidth: "100%",
                                             display: "block",
                                           }}
@@ -2877,6 +2877,24 @@ body {
   font-size: 16px;
   color: rgb(0, 0, 0);
   font-family: Roboto, sans-serif;
+}
+
+#iconHelp {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(194, 20, 73);
+  border-radius: 50%;
+  position: relative;
+}
+
+#iconHelp::before {
+  content: "?";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
 }
 `,
         }}

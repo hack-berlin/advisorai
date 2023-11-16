@@ -124,13 +124,10 @@ export default function Component() {
                     marginRight: "10px",
                   }}
                 >
-                  <img
+                  <span
                     id="iconHelp"
                     className="is-block"
-                    height={20}
-                    width={20}
                     aria-expanded="false"
-                    src="https://souscrire.placement-direct.fr/images/help.svg"
                     style={{
                       borderWidth: "0px",
                       borderColor: "rgba(229, 231, 235, 1)",
@@ -138,7 +135,8 @@ export default function Component() {
                       WebkitFontSmoothing: "antialiased",
                       borderStyle: "solid",
                       verticalAlign: "middle",
-                      height: "auto",
+                      height: "20px",
+                      width: "20px",
                       maxWidth: "100%",
                       display: "block",
                     }}
@@ -920,6 +918,24 @@ body {
   font-size: 16px;
   color: rgb(0, 0, 0);
   font-family: Roboto, sans-serif;
+}
+
+#iconHelp {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(194, 20, 73);
+  border-radius: 50%;
+  position: relative;
+}
+
+#iconHelp::before {
+  content: "?";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
 }
 `,
         }}
