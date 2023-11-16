@@ -439,7 +439,7 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                                       <span
                                         className="mx-10 is-flex-shrink-0"
                                         id="management-type-hint"
-                                        onClick={() => clickTips('can you explain me difference between management delegated management and mixed management ?')}
+                                        onClick={() => clickTips('can you explain me difference between  delegated management and mixed management ?')}
                                         style={{
                                           borderWidth: "0px",
                                           borderStyle: "solid",
