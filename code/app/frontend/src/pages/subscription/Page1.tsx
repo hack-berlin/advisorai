@@ -1611,52 +1611,52 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               height: "auto",
                                             }}
                                           >
-                                             <input
-                                            className="input text is-rounded is-medium has-text-left"
-                                            type="email"
-                                            inputMode="email"
-                                            style={{
-                                              borderWidth: "0px",
-                                              borderStyle: "solid",
-                                              boxSizing: "inherit",
-                                              WebkitFontSmoothing:
-                                                "antialiased",
-                                              margin: "0px",
-                                              fontFamily: "Roboto, sans-serif",
-                                              border: "1px solid transparent",
-                                              padding:
-                                                "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                              appearance: "none",
-                                              alignItems: "center",
-                                              display: "inline-flex",
-                                              justifyContent: "flex-start",
-                                              position: "relative",
-                                              verticalAlign: "top",
-                                              borderColor: "rgb(224, 222, 222)",
-                                              backgroundColor:
-                                                "rgb(255, 255, 255)",
-                                              boxShadow:
-                                                "rgba(10, 10, 10, 0.05) 0px 0.0625em 0.125em inset",
-                                              maxWidth: "100%",
-                                              width: "100%",
-                                              borderRadius: "9999px",
-                                              paddingLeft:
-                                                "calc(1.125em - 1px)",
-                                              paddingRight:
-                                                "calc(1.125em - 1px)",
-                                              fontWeight: 400,
-                                              fontStretch: "normal",
-                                              fontStyle: "normal",
-                                              lineHeight: "normal",
-                                              letterSpacing: "normal",
-                                              color: "rgb(0, 0, 0)",
-                                              fontSize: "16px",
-                                              height: "50px",
-                                              textAlign: "left",
-                                              paddingTop: "0px",
-                                              paddingBottom: "0px",
-                                            }}
-                                          />
+                                            <input
+                                              className="input text is-rounded is-medium has-text-left"
+                                              type="email"
+                                              inputMode="email"
+                                              style={{
+                                                borderWidth: "0px",
+                                                borderStyle: "solid",
+                                                boxSizing: "inherit",
+                                                WebkitFontSmoothing:
+                                                  "antialiased",
+                                                margin: "0px",
+                                                fontFamily: "Roboto, sans-serif",
+                                                border: "1px solid transparent",
+                                                padding:
+                                                  "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                appearance: "none",
+                                                alignItems: "center",
+                                                display: "inline-flex",
+                                                justifyContent: "flex-start",
+                                                position: "relative",
+                                                verticalAlign: "top",
+                                                borderColor: "rgb(224, 222, 222)",
+                                                backgroundColor:
+                                                  "rgb(255, 255, 255)",
+                                                boxShadow:
+                                                  "rgba(10, 10, 10, 0.05) 0px 0.0625em 0.125em inset",
+                                                maxWidth: "100%",
+                                                width: "100%",
+                                                borderRadius: "9999px",
+                                                paddingLeft:
+                                                  "calc(1.125em - 1px)",
+                                                paddingRight:
+                                                  "calc(1.125em - 1px)",
+                                                fontWeight: 400,
+                                                fontStretch: "normal",
+                                                fontStyle: "normal",
+                                                lineHeight: "normal",
+                                                letterSpacing: "normal",
+                                                color: "rgb(0, 0, 0)",
+                                                fontSize: "16px",
+                                                height: "50px",
+                                                textAlign: "left",
+                                                paddingTop: "0px",
+                                                paddingBottom: "0px",
+                                              }}
+                                            />
                                           </span>
                                         </div>
                                       </div>
@@ -1863,7 +1863,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                               fontWeight: "inherit",
                                             }}
                                           >
-                                            What is your monthly saving?
+                                            What is your monthly saving capicity?
                                           </span>
 
                                           <span
@@ -1931,52 +1931,52 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                                             }}
                                           >
                                             <input
-                                            className="input text is-rounded is-medium has-text-left"
-                                            type="text"
-                                            maxLength={255}
-                                            inputMode="text"
-                                            style={{
-                                              borderWidth: "0px",
-                                              borderStyle: "solid",
-                                              boxSizing: "inherit",
-                                              WebkitFontSmoothing:
-                                                "antialiased",
-                                              margin: "0px",
-                                              fontFamily: "Roboto, sans-serif",
-                                              border: "1px solid transparent",
-                                              padding:
-                                                "calc(0.5em - 1px) calc(0.75em - 1px)",
-                                              appearance: "none",
-                                              alignItems: "center",
-                                              display: "inline-flex",
-                                              justifyContent: "flex-start",
-                                              position: "relative",
-                                              verticalAlign: "top",
-                                              borderColor: "rgb(224, 222, 222)",
-                                              backgroundColor:
-                                                "rgb(255, 255, 255)",
-                                              boxShadow:
-                                                "rgba(10, 10, 10, 0.05) 0px 0.0625em 0.125em inset",
-                                              maxWidth: "100%",
-                                              width: "100%",
-                                              borderRadius: "9999px",
-                                              paddingLeft:
-                                                "calc(1.125em - 1px)",
-                                              paddingRight:
-                                                "calc(1.125em - 1px)",
-                                              fontWeight: 400,
-                                              fontStretch: "normal",
-                                              fontStyle: "normal",
-                                              lineHeight: "normal",
-                                              letterSpacing: "normal",
-                                              color: "rgb(0, 0, 0)",
-                                              fontSize: "16px",
-                                              height: "50px",
-                                              textAlign: "left",
-                                              paddingTop: "0px",
-                                              paddingBottom: "0px",
-                                            }}
-                                          />
+                                              className="input text is-rounded is-medium has-text-left"
+                                              type="text"
+                                              maxLength={255}
+                                              inputMode="text"
+                                              style={{
+                                                borderWidth: "0px",
+                                                borderStyle: "solid",
+                                                boxSizing: "inherit",
+                                                WebkitFontSmoothing:
+                                                  "antialiased",
+                                                margin: "0px",
+                                                fontFamily: "Roboto, sans-serif",
+                                                border: "1px solid transparent",
+                                                padding:
+                                                  "calc(0.5em - 1px) calc(0.75em - 1px)",
+                                                appearance: "none",
+                                                alignItems: "center",
+                                                display: "inline-flex",
+                                                justifyContent: "flex-start",
+                                                position: "relative",
+                                                verticalAlign: "top",
+                                                borderColor: "rgb(224, 222, 222)",
+                                                backgroundColor:
+                                                  "rgb(255, 255, 255)",
+                                                boxShadow:
+                                                  "rgba(10, 10, 10, 0.05) 0px 0.0625em 0.125em inset",
+                                                maxWidth: "100%",
+                                                width: "100%",
+                                                borderRadius: "9999px",
+                                                paddingLeft:
+                                                  "calc(1.125em - 1px)",
+                                                paddingRight:
+                                                  "calc(1.125em - 1px)",
+                                                fontWeight: 400,
+                                                fontStretch: "normal",
+                                                fontStyle: "normal",
+                                                lineHeight: "normal",
+                                                letterSpacing: "normal",
+                                                color: "rgb(0, 0, 0)",
+                                                fontSize: "16px",
+                                                height: "50px",
+                                                textAlign: "left",
+                                                paddingTop: "0px",
+                                                paddingBottom: "0px",
+                                              }}
+                                            />
                                           </span>
                                         </div>
                                       </div>
@@ -2111,7 +2111,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                     >
                       {"Previous"}
                     </span>{" "}
-                  
+
                   </button>{" "}
                   <button
                     onClick={onNextClick}
@@ -2151,7 +2151,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                         "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 0px #C21449",
                     }}
                   >
-                  {" "}
+                    {" "}
                     <span
                       style={{
                         borderWidth: "0px",
