@@ -223,10 +223,7 @@ export default function Component({ onPrevClick, onNextClick }: { onPrevClick: M
                             >
                               {" "}
                             </div>
-                            <div className="thumb-container">
-                              <div className="thumb"></div>
-                            </div>
-                            <p>Welcom to the Swisslife Family !</p>
+                            <p>Welcome to the Swisslife Family  &#128525; !</p>
                           </div>{" "}
                         </section>{" "}
                       </div>{" "}
