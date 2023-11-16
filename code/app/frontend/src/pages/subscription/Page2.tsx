@@ -2669,59 +2669,6 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                           {" "}
                         </div>
                       </span>{" "}
-                      <footer
-                        className="is-flex mt-18"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgba(229, 231, 235, 1)",
-                          boxSizing: "inherit",
-                          WebkitFontSmoothing: "antialiased",
-                          display: "flex",
-                          marginTop: "18px",
-                        }}
-                      >
-                        <button
-                          onClick={onNextClick}
-                          className="mx-auto button is-pld is-without-icon is-step"
-                          style={{
-                            borderStyle: "solid",
-                            boxSizing: "inherit",
-                            WebkitFontSmoothing: "antialiased",
-                            backgroundImage: "none",
-                            margin: "0px",
-                            fontFamily: "Roboto, sans-serif",
-                            appearance: "none",
-                            alignItems: "center",
-                            boxShadow: "none",
-                            display: "inline-flex",
-                            lineHeight: 1.5,
-                            position: "relative",
-                            verticalAlign: "top",
-                            userSelect: "none",
-                            borderColor: "rgb(224, 222, 222)",
-                            borderWidth: "1px",
-                            whiteSpace: "nowrap",
-                            cursor: "pointer",
-                            justifyContent: "center",
-                            textAlign: "center",
-                            border: "none",
-                            borderRadius: "40px",
-                            backgroundColor: "rgb(194, 20, 73)",
-                            color: "white",
-                            textTransform: "uppercase",
-                            fontWeight: 500,
-                            minWidth: "150px",
-                            padding: "0px 40px",
-                            height: "60px",
-                            fontSize: "17px",
-                            marginLeft: "auto",
-                            marginRight: "auto",
-                          }}
-                        >
-                          {"Validate"}
-                        </button>
-                      </footer>
                     </div>{" "}
                   </div>{" "}
                   <div
@@ -2825,6 +2772,63 @@ export default function Component({ onPrevClick, onNextClick, onTips }: { onPrev
                         />
                       </svg>
                     </button>{" "}
+
+                    <button
+                      onClick={onNextClick}
+                      className="pld-m-2 btn_1P7x4 block_1Jg7s filled_FpChn shift_left_22ha8 yellow_sJHfv"
+                      aria-label="Next"
+                      style={{
+                        borderWidth: "0px",
+                        borderStyle: "solid",
+                        borderColor: "rgba(194, 20, 73, 1)",
+                        boxSizing: "inherit",
+                        WebkitFontSmoothing: "antialiased",
+                        appearance: "button",
+                        lineHeight: "inherit",
+                        fontFamily: "Roboto, sans-serif",
+                        outline: "none",
+                        border: "none",
+                        background: "unset",
+                        transition:
+                          "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        textTransform: "uppercase",
+                        userSelect: "none",
+                        cursor: "pointer",
+                        fontWeight: 700,
+                        backgroundImage: "unset",
+                        fontSize: "17px",
+                        margin: "0.5rem",
+                        display: "flex",
+                        borderRadius: "40px",
+                        padding: "0px 40px",
+                        height: "60px",
+                        color: "white",
+                        backgroundColor: "#C21449",
+                        minWidth: "200px",
+                        boxShadow:
+                          "0 3px 10px rgb(0 0 0/0%),inset 0 0 0 0px #C21449",
+                      }}
+                    >
+                      {" "}
+                      <span
+                        style={{
+                          borderWidth: "0px",
+                          borderStyle: "solid",
+                          borderColor: "rgba(194, 20, 73, 1)",
+                          boxSizing: "inherit",
+                          WebkitFontSmoothing: "antialiased",
+                          fontStyle: "inherit",
+                          fontWeight: "inherit",
+                          pointerEvents: "none",
+                          transition:
+                            "all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0ms",
+                        }}
+                      >
+                        {"Next"}
+                      </span>{" "}
+                    </button>
                   </div>{" "}
                 </div>
               </div>{" "}
