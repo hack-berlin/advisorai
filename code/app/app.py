@@ -175,6 +175,7 @@ def prepare_body_headers_with_data(request):
                     "endpoint": f"https://{AZURE_SEARCH_SERVICE}.search.windows.net",
                     "key": AZURE_SEARCH_KEY,
                     "indexName": AZURE_SEARCH_INDEX,
+                    "filter": "title eq '/documents/12345_Dossier_souscription_Darjeeling_01_2020_English.pdf'",
                     "fieldsMapping": {
                         "contentField": AZURE_SEARCH_CONTENT_COLUMNS.split("|") if AZURE_SEARCH_CONTENT_COLUMNS else [],
                         "titleField": AZURE_SEARCH_TITLE_COLUMN if AZURE_SEARCH_TITLE_COLUMN else None,

@@ -4,7 +4,7 @@ import Performance from './components/Performance';
 import { AppContext } from "../context";
 
 
-export default function Component({ onNextClick, onTips }: { onNextClick: MouseEventHandler<HTMLButtonElement>, onTips: (tip: string) => void }) {
+export default function Component({ onPrevClick, onNextClick, onTips }: { onPrevClick: MouseEventHandler<HTMLButtonElement>, onNextClick: MouseEventHandler<HTMLButtonElement>, onTips: (tip: string) => void }) {
   const { state } = useContext<any>(AppContext);
 
   function clickTips(): void {
@@ -378,103 +378,103 @@ export default function Component({ onNextClick, onTips }: { onNextClick: MouseE
                                   >
                                     {" "}
                                     <label
-                className="label"
-                style={{
-                  borderWidth: "0px",
-                  borderStyle: "solid",
-                  borderColor: "rgba(229, 231, 235, 1)",
-                  boxSizing: "inherit",
-                  WebkitFontSmoothing: "antialiased",
-                  display: "flex",
-                  alignItems: "center",
-                  fontWeight: 500,
-                  color: "rgb(0, 0, 0)",
-                  fontSize: "16px",
-                  marginBottom: "5px",
-                }}
-              >
-                <label
-                  className="input_label_mqESs"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
-                    boxSizing: "inherit",
-                    WebkitFontSmoothing: "antialiased",
-                    fontWeight: 500,
-                    fontSize: "18px",
-                    lineHeight: "28px",
-                  }}
-                >
-                  <span
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      fontStyle: "inherit",
-                      fontWeight: "inherit",
-                    }}
-                  >
-                    What type of management do you want to choose?
-                  </span>
-                   
-                  <span
-                    className="required_1oOjx"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      fontStyle: "inherit",
-                      fontWeight: "inherit",
-                      color: "rgb(255, 209, 0)",
-                    }}
-                  >
-                    *
-                  </span>
-                </label>{" "}
-                <span
-                  className="mx-10 is-flex-shrink-0"
-                  id="management-type-hint"
-                  onClick={clickTips}
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgba(229, 231, 235, 1)",
-                    boxSizing: "inherit",
-                    WebkitFontSmoothing: "antialiased",
-                    fontStyle: "inherit",
-                    fontWeight: "inherit",
-                    cursor: "pointer",
-                    flexShrink: 0,
-                    marginLeft: "10px",
-                    marginRight: "10px",
-                  }}
-                >
-                  <img
-                    id="iconHelp"
-                    className="is-block"
-                    height={20}
-                    width={20}
-                    aria-expanded="false"
-                    src="https://souscrire.placement-direct.fr/images/help.svg"
-                    style={{
-                      borderWidth: "0px",
-                      borderColor: "rgba(229, 231, 235, 1)",
-                      boxSizing: "inherit",
-                      WebkitFontSmoothing: "antialiased",
-                      borderStyle: "solid",
-                      verticalAlign: "middle",
-                      height: "auto",
-                      maxWidth: "100%",
-                      display: "block",
-                    }}
-                  />
-                </span>
-              </label>{" "}{" "}
+                                      className="label"
+                                      style={{
+                                        borderWidth: "0px",
+                                        borderStyle: "solid",
+                                        borderColor: "rgba(229, 231, 235, 1)",
+                                        boxSizing: "inherit",
+                                        WebkitFontSmoothing: "antialiased",
+                                        display: "flex",
+                                        alignItems: "center",
+                                        fontWeight: 500,
+                                        color: "rgb(0, 0, 0)",
+                                        fontSize: "16px",
+                                        marginBottom: "5px",
+                                      }}
+                                    >
+                                      <label
+                                        className="input_label_mqESs"
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          fontWeight: 500,
+                                          fontSize: "18px",
+                                          lineHeight: "28px",
+                                        }}
+                                      >
+                                        <span
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            fontStyle: "inherit",
+                                            fontWeight: "inherit",
+                                          }}
+                                        >
+                                          What type of management do you want to choose?
+                                        </span>
+
+                                        <span
+                                          className="required_1oOjx"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderStyle: "solid",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            fontStyle: "inherit",
+                                            fontWeight: "inherit",
+                                            color: "rgb(255, 209, 0)",
+                                          }}
+                                        >
+                                          *
+                                        </span>
+                                      </label>{" "}
+                                      <span
+                                        className="mx-10 is-flex-shrink-0"
+                                        id="management-type-hint"
+                                        onClick={clickTips}
+                                        style={{
+                                          borderWidth: "0px",
+                                          borderStyle: "solid",
+                                          borderColor: "rgba(229, 231, 235, 1)",
+                                          boxSizing: "inherit",
+                                          WebkitFontSmoothing: "antialiased",
+                                          fontStyle: "inherit",
+                                          fontWeight: "inherit",
+                                          cursor: "pointer",
+                                          flexShrink: 0,
+                                          marginLeft: "10px",
+                                          marginRight: "10px",
+                                        }}
+                                      >
+                                        <img
+                                          id="iconHelp"
+                                          className="is-block"
+                                          height={20}
+                                          width={20}
+                                          aria-expanded="false"
+                                          src="https://souscrire.placement-direct.fr/images/help.svg"
+                                          style={{
+                                            borderWidth: "0px",
+                                            borderColor: "rgba(229, 231, 235, 1)",
+                                            boxSizing: "inherit",
+                                            WebkitFontSmoothing: "antialiased",
+                                            borderStyle: "solid",
+                                            verticalAlign: "middle",
+                                            height: "auto",
+                                            maxWidth: "100%",
+                                            display: "block",
+                                          }}
+                                        />
+                                      </span>
+                                    </label>{" "}{" "}
 
                                     <div
                                       className="pld-mt-4"
@@ -2739,6 +2739,7 @@ export default function Component({ onNextClick, onTips }: { onNextClick: MouseE
                     <button
                       className="pld-m-2 btn_1P7x4 block_1Jg7s outlined_3xSXE shift_right_2U_ar yellow_sJHfv"
                       aria-label="Previous"
+                      onClick={onPrevClick}
                       style={{
                         borderWidth: "0px",
                         borderStyle: "solid",

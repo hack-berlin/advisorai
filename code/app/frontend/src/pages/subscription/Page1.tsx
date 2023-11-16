@@ -1,7 +1,7 @@
 import React, { MouseEventHandler } from "react";
 import Breadcrumbs from './components/Breadcrumbs';
 
-export default function Component({ onNextClick }: { onNextClick: MouseEventHandler<HTMLButtonElement> }) {
+export default function Component({ onPrevClick, onNextClick }: { onPrevClick: MouseEventHandler<HTMLButtonElement>, onNextClick: MouseEventHandler<HTMLButtonElement> }) {
   return (
     <>
       <div
@@ -2060,6 +2060,7 @@ export default function Component({ onNextClick }: { onNextClick: MouseEventHand
                   <button
                     className="pld-m-2 btn_1P7x4 block_1Jg7s outlined_3xSXE shift_right_2U_ar yellow_sJHfv"
                     aria-label="Previous"
+                    onClick={onPrevClick}
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
