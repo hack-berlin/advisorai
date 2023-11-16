@@ -1050,7 +1050,7 @@ html {
   border-style: solid;
   border-color: rgba(229, 231, 235, 1);
   tab-size: 4;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Roboto, sans-serif", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Roboto, sans-serif Emoji", "Roboto, sans-serif Symbol", "Noto Color Emoji";
   line-height: 1.5;
   margin: 0px;
   padding: 0px;

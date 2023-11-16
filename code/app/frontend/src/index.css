@@ -10,7 +10,7 @@ body {
 
 html {
   background: #f2f2f2;
-  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Roboto, sans-serif", "Roboto, sans-serif Web (West European)", "Roboto, sans-serif", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
