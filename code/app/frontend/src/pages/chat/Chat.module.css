@@ -24,7 +24,6 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     overflow-y: auto;
-    max-height: calc(100vh - 100px);
 }
 
 .chatEmptyState {
@@ -36,7 +35,7 @@
 }
 
 .chatEmptyStateTitle {
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -50,10 +49,10 @@
 
 .chatEmptyStateSubtitle {
     margin-top: 20px;
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 150%;
     display: flex;
     align-items: flex-end;
@@ -63,8 +62,8 @@
 }
 
 .chatIcon {
-    height: 62px;
-    width: 62px;
+    height: 100px;
+    width: 100px;
 }
 
 .chatMessageStream {
@@ -90,10 +89,10 @@
     background: #EDF5FD;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 22px;
     color: #242424;
     flex: none;
@@ -105,6 +104,10 @@
 }
 
 .chatMessageGpt {
+    font-family: "Roboto, sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
     margin-bottom: 12px;
     max-width: 80%;
     display: flex;
@@ -167,10 +170,10 @@
 .stopGeneratingText {
     width: 103px;
     height: 20px;
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -203,7 +206,7 @@
 }
 
 .citationPanelHeader {
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -226,25 +229,25 @@
 }
 
 .citationPanelTitle {
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     color: #323130;
     margin-top: 12px;
     margin-bottom: 12px;
-} 
+}
 
 .citationPanelContent {
-    font-family: "Segoe UI";
+    font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     color: #000000;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-} 
+}
